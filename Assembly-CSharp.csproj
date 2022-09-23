@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C320E0F5-A6CE-8F75-CD09-F7AF8AF3A4B6}</ProjectGuid>
+    <ProjectGuid>{6AD1E619-680B-0928-986A-7C4B105EEC75}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\ActionToTeleportation.cs" />
     <Compile Include="Assets\Scripts\Pedestal.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\torchlight.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -798,11 +799,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{DBAA05E2-9157-908D-4E1D-A72FBA89EC47}</Project>
+      <Project>{4426A453-6770-ED19-A0E0-250F8E4BC5C4}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="ControllerSample.csproj">
-      <Project>{3CD39125-BDBF-F2BE-9F84-4206DEFE346A}</Project>
+      <Project>{471E65C2-9D80-C4DB-BDEB-F8A0DA3658E6}</Project>
       <Name>ControllerSample</Name>
     </ProjectReference>
   </ItemGroup>
