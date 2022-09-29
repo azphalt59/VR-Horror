@@ -24,12 +24,14 @@ public class torchlight : MonoBehaviour
             GetComponent<Light>().enabled = true;
             return;
         }
+        /*
         if (EnabledL == true)
         {
             EnabledL = false;
             GetComponent<Light>().enabled = false;
             return;
         }
+        */
     }
 
     private void OnDisable()
