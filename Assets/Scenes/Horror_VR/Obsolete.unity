@@ -9779,7 +9779,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-53238
+  m_Name: pb_Mesh45638
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11802,11 +11802,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1753827785614283701, guid: 67c18b7780b91d7408016321c6200bee, type: 3}
       propertyPath: m_TintColor.b
-      value: 0.046493012
+      value: 0.015686274
       objectReference: {fileID: 0}
     - target: {fileID: 1753827785614283701, guid: 67c18b7780b91d7408016321c6200bee, type: 3}
       propertyPath: m_TintColor.g
-      value: 0.015686274
+      value: 0.8131755
       objectReference: {fileID: 0}
     - target: {fileID: 1753827785614283702, guid: 67c18b7780b91d7408016321c6200bee, type: 3}
       propertyPath: m_RootOrder
