@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Pedestal.cs" />
     <Compile Include="Assets\Scripts\torchlight.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\Drawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
