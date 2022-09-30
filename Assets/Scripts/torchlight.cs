@@ -13,9 +13,7 @@ public class torchlight : MonoBehaviour
     private void OnEnable()
     {
         lightActionLeft.action.performed += DisableLight;
-        lightActionRight.action.performed += PerformLight;
-
-        
+        lightActionRight.action.performed += PerformLight; 
     }
 
     private void PerformLight(InputAction.CallbackContext obj)
