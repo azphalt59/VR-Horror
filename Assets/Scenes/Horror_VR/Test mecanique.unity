@@ -18731,6 +18731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4641204926669755265, guid: 68016ff5e87b2fe4393c86073163033d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.65
+      objectReference: {fileID: 0}
     - target: {fileID: 4641204926669755271, guid: 68016ff5e87b2fe4393c86073163033d, type: 3}
       propertyPath: m_Type
       value: 0
@@ -18753,15 +18757,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4641204926669755271, guid: 68016ff5e87b2fe4393c86073163033d, type: 3}
       propertyPath: m_Intensity
-      value: 1.5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4641204926669755271, guid: 68016ff5e87b2fe4393c86073163033d, type: 3}
       propertyPath: m_SpotAngle
-      value: 46.774986
+      value: 42.03423
       objectReference: {fileID: 0}
     - target: {fileID: 4641204926669755271, guid: 68016ff5e87b2fe4393c86073163033d, type: 3}
       propertyPath: m_InnerSpotAngle
-      value: 35.83587
+      value: 31.095112
       objectReference: {fileID: 0}
     - target: {fileID: 6358526726147213793, guid: 68016ff5e87b2fe4393c86073163033d, type: 3}
       propertyPath: m_RootOrder
