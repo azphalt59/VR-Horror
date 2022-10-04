@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class torchlight : MonoBehaviour
 {
-    private bool EnabledL = false;
     [SerializeField]
     private InputActionReference lightActionLeft, lightActionRight;
     // Start is called before the first frame update
