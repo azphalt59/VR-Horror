@@ -65,9 +65,11 @@
     <Compile Include="Assets\Scripts\PlayerDetector.cs" />
     <Compile Include="Assets\Scripts\ActionToTeleportation.cs" />
     <Compile Include="Assets\Scripts\Pedestal.cs" />
+    <Compile Include="Assets\Trigger.cs" />
     <Compile Include="Assets\Scripts\torchlight.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
-    <Compile Include="Assets\Trigger.cs" />
+    <Compile Include="Assets\Scripts\playerTeleporter.cs" />
+    <Compile Include="Assets\Scripts\TriggerCloseDoor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
