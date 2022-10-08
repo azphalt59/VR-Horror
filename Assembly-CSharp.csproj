@@ -58,7 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\VR\HandleDoor.cs" />
     <Compile Include="Assets\Scripts\VR\ActionToMovement.cs" />
+    <Compile Include="Assets\Scripts\ClassiqControleur.cs" />
     <Compile Include="Assets\Scripts\VR\Drawer.cs" />
+    <Compile Include="Assets\Scripts\playerTeleporter.cs" />
+    <Compile Include="Assets\Scripts\TriggerCloseDoor.cs" />
     <Compile Include="Assets\Scripts\VR\Key.cs" />
     <Compile Include="Assets\Scripts\VR\ActionToRotation.cs" />
     <Compile Include="Assets\Scripts\VR\Spawnable.cs" />
@@ -68,9 +71,6 @@
     <Compile Include="Assets\Trigger.cs" />
     <Compile Include="Assets\Scripts\VR\torchlight.cs" />
     <Compile Include="Assets\Scripts\VR\Door.cs" />
-    <Compile Include="Assets\Scripts\ClassiqControleur.cs" />
-    <Compile Include="Assets\Scripts\TriggerCloseDoor.cs" />
-    <Compile Include="Assets\Scripts\playerTeleporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
