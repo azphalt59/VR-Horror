@@ -6,13 +6,13 @@ public class HandleDoor : MonoBehaviour
 {
     public GameObject Door;
     public GameObject otherKnob;
+    public GameObject meshKnob;
+    public GameObject meshOtherKnob;
     public GameObject[] triggers;
 
 
     private float startDoorRotation;
-    private Vector3 startKnobRotation;
-    private Vector3 startOtherKnobRotation;
-    
+   
     public float AddRotation = 20f;
 
     public float RotationSpeed = 15f;
@@ -24,18 +24,17 @@ public class HandleDoor : MonoBehaviour
     private float endPos;
     private bool Open = false;
     private bool Close = true;
-    
+    private bool isSelected = false;
+    private bool isSelected2 = false;
 
-    
-    
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         startDoorRotation = Door.transform.localEulerAngles.y;
-        startKnobRotation = new Vector3(0, 0,transform.localEulerAngles.z);
-        startOtherKnobRotation = new Vector3(0, otherKnob.transform.localEulerAngles.y, otherKnob.transform.localEulerAngles.z);
-
-
+        
         if (inverseSpeed == true)
         {
             reverseSpeed = -1;
@@ -48,53 +47,62 @@ public class HandleDoor : MonoBehaviour
     void Update()
     {
         angleDoorY  = Door.transform.localEulerAngles.y;
-       
 
-        if (transform.localEulerAngles.z >= 90)
-        {
-            triggers[0].SetActive(true);
-            OpenDoor();
-        }
-        if (otherKnob.transform.localEulerAngles.z >= 90)
-        {
-            triggers[1].SetActive(true);
-            OpenDoor();
-        }
-        if (angleDoorY <= startDoorRotation)
-        {
-            Close = true;
-        }
+        OpenDoor();
         CloseDoor();
-        
     }
 
     public void CloseDoorBoolean()
     {
-        transform.localEulerAngles = startKnobRotation;
-        otherKnob.transform.localEulerAngles = startOtherKnobRotation;
         triggers[0].SetActive(false);
         triggers[1].SetActive(false);
-        Close = false;
+        isSelected2 = true;
     }
     public void CloseDoor()
     {
-        if(angleDoorY > startDoorRotation && Close == false)
+        if (isSelected2 == true)
         {
-            Door.transform.localEulerAngles -= new Vector3(0, 1 * reverseSpeed, 0) * Time.deltaTime * RotationSpeed * CloseSpeedMultiply;
+            if(angleDoorY > startDoorRotation)
+            {
+                Door.transform.localEulerAngles -= new Vector3(0, 1 * reverseSpeed, 0) * Time.deltaTime * RotationSpeed * CloseSpeedMultiply;
+            }
+            if(angleDoorY <= startDoorRotation)
+            {
+                isSelected2 = false;
+            }
         }
     }
     public void OpenDoor()
     {
-        if (angleDoorY < endPos && Open == false)
+        if (isSelected == true)
         {
-            Door.transform.localEulerAngles += new Vector3(0, 1 * reverseSpeed, 0) * Time.deltaTime * RotationSpeed;
-        }
-        if (angleDoorY >= endPos)
-        {
-            Open = true;
+            if (angleDoorY < endPos)
+            {
+                Door.transform.localEulerAngles += new Vector3(0, 1 * reverseSpeed, 0) * Time.deltaTime * RotationSpeed;
+            }
+            if(angleDoorY >= endPos)
+            {
+                isSelected = false;
+            }
         }
     }
-
+    public void test()
+    {
+        Debug.Log("Test");
+    }
+    public void Selected()
+    {
+        isSelected = true;
+    }
+    public void UnSelected()
+    {
+        isSelected = false;
+    }
+    public void resetPosition()
+    {
+        transform.position = meshKnob.transform.position;
+        meshOtherKnob.transform.position = meshOtherKnob.transform.position;
+    }
 }
 
 
