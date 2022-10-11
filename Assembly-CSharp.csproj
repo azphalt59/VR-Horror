@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\VR\torchlight.cs" />
     <Compile Include="Assets\Scripts\VR\Door.cs" />
     <Compile Include="Assets\Scripts\SpectralItem.cs" />
+    <Compile Include="Assets\Scripts\HandPresence.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
