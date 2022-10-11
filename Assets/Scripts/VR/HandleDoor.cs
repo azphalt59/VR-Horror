@@ -22,8 +22,7 @@ public class HandleDoor : MonoBehaviour
     private int reverseSpeed= 1;
     private float angleDoorY;
     private float endPos;
-    private bool Open = false;
-    private bool Close = true;
+    
     private bool isSelected = false;
     private bool isSelected2 = false;
 
