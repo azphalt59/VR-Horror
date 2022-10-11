@@ -6984,6 +6984,27 @@ Transform:
   m_Father: {fileID: 1711653593}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &680216710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584760206829397187, guid: 020e7082af38e9d4994976c089371a37, type: 3}
+  m_PrefabInstance: {fileID: 584760206854616585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &680216716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680216710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176219c8f5b80ad42b7138d797451ae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showController: 0
+  controllerCharacteristics: 576
+  controllerPrefabs: []
+  handModelPrefab: {fileID: 0}
 --- !u!1 &694550890
 GameObject:
   m_ObjectHideFlags: 0
@@ -11190,6 +11211,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1263076562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584760207334436668, guid: 020e7082af38e9d4994976c089371a37, type: 3}
+  m_PrefabInstance: {fileID: 584760206854616585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1263076568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263076562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176219c8f5b80ad42b7138d797451ae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showController: 0
+  controllerCharacteristics: 320
+  controllerPrefabs: []
+  handModelPrefab: {fileID: 0}
 --- !u!43 &1272688393
 Mesh:
   m_ObjectHideFlags: 0
@@ -18121,6 +18163,14 @@ PrefabInstance:
     - target: {fileID: 584760205906269157, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 584760206829397190, guid: 020e7082af38e9d4994976c089371a37, type: 3}
+      propertyPath: m_AnimateModel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 584760207334436659, guid: 020e7082af38e9d4994976c089371a37, type: 3}
+      propertyPath: m_AnimateModel
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 020e7082af38e9d4994976c089371a37, type: 3}
