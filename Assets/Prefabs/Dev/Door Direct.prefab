@@ -862,7 +862,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1780760177932987114}
   - component: {fileID: 8398988538487130765}
-  - component: {fileID: 5124809029303847122}
   m_Layer: 0
   m_Name: Behind_TriggerDoor
   m_TagString: Untagged
@@ -898,24 +897,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: -1.5}
---- !u!114 &5124809029303847122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021386576758724339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aebaf34fa558c740802fdf84c27fef5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handleDoorScript: {fileID: 1482793568435157538}
-  HingeDoor: 1
-  Door: {fileID: 1752631659374505706}
-  RotationSpeed: 0
-  FrontTrigger: {fileID: 5937640753858015104}
-  BehindTrigger: {fileID: 2021386576758724339}
 --- !u!1 &5937640753858015104
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +907,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6627317534196184826}
   - component: {fileID: 7700594205589849037}
-  - component: {fileID: 8356363513248828742}
   m_Layer: 0
   m_Name: Front_TriggerDoor
   m_TagString: Untagged
@@ -962,21 +942,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 1.5}
---- !u!114 &8356363513248828742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5937640753858015104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aebaf34fa558c740802fdf84c27fef5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handleDoorScript: {fileID: 1482793568435157538}
-  HingeDoor: 0
-  Door: {fileID: 0}
-  RotationSpeed: 0
-  FrontTrigger: {fileID: 0}
-  BehindTrigger: {fileID: 0}
