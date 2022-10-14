@@ -7,7 +7,6 @@ public class torchlight : MonoBehaviour
 {
     [SerializeField]
     private InputActionReference lightActionLeft, lightActionRight;
-    public bool isGrab = false;
     // Start is called before the first frame update
 
     private void OnEnable()
@@ -18,18 +17,14 @@ public class torchlight : MonoBehaviour
 
     private void PerformLight(InputAction.CallbackContext obj)
     {
-        if(isGrab == true)
+        if(GetComponent<Light>().enabled == true)
         {
-            if (GetComponent<Light>().enabled == true)
-            {
-                GetComponent<Light>().enabled = false;
-                return;
-            }
-            if (GetComponent<Light>().enabled == false)
-            {
-                GetComponent<Light>().enabled = true;
-
-            }
+            GetComponent<Light>().enabled = false;
+            return;
+        }
+        if (GetComponent<Light>().enabled == false)
+        {
+            GetComponent<Light>().enabled = true;
             return;
         }
     }
