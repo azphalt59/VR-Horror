@@ -11,6 +11,7 @@ public class Main_Manager : MonoBehaviour
     public int StepIndex = 1;
     // Start is called before the first frame update
     public static Main_Manager Instance;
+    [SerializeField] private bool DoorsAreLocked = true;
     [SerializeField] private List<XRGrabInteractable> grabs;
     public void Awake()
     {
@@ -41,10 +42,16 @@ public class Main_Manager : MonoBehaviour
 
     public void ActiveDoor()
     {
-        foreach(XRGrabInteractable grab in grabs)
+        if(DoorsAreLocked == true)
         {
-            grab.enabled = true;
+            foreach (XRGrabInteractable grab in grabs)
+            {
+                grab.enabled = true;
+                //grab.gameObject.GetComponent<HandleDoor>().
+            }
+            DoorsAreLocked = false;
         }
+        
     }
     private void LoadNextStepQuest(int ItemIndex)
     {
