@@ -74,6 +74,20 @@
     <Compile Include="Assets\Trigger.cs" />
     <Compile Include="Assets\Scripts\VR\torchlight.cs" />
     <Compile Include="Assets\Scripts\VR\Door.cs" />
+    <Compile Include="Assets\Tool\LSS_UID.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_Light.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_LensFlare.cs" />
+    <Compile Include="Assets\Tool\LSS_FrontEndBase.cs" />
+    <Compile Include="Assets\Tool\FindMissingScriptsRecursively.cs" />
+    <Compile Include="Assets\Tool\UniqueId.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_Material.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_ComponentBase.cs" />
+    <Compile Include="Assets\Tool\LSS_Models.cs" />
+    <Compile Include="Assets\Tool\LSS_FrontEnd.cs" />
+    <Compile Include="Assets\Tool\ChangeLightingOnEnable.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_GameObject.cs" />
+    <Compile Include="Assets\Tool\LSS_ModelsBase.cs" />
+    <Compile Include="Assets\Scripts\TriggerEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

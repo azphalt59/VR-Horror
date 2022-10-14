@@ -33,6 +33,7 @@ public class HandleDoor : MonoBehaviour
     void Start()
     {
         startDoorRotation = Door.transform.localEulerAngles.y;
+        UnlockDoor(20);
         
         if (inverseSpeed == true)
         {
@@ -56,6 +57,10 @@ public class HandleDoor : MonoBehaviour
         triggers[0].SetActive(false);
         triggers[1].SetActive(false);
         isSelected2 = true;
+    }
+    public void UnlockDoor(int AddAngle)
+    {
+        Door.transform.localEulerAngles += new Vector3(0, AddAngle, 0);
     }
     public void CloseDoor()
     {
