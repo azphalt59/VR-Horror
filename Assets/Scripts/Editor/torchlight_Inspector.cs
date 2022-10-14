@@ -7,10 +7,11 @@ using UnityEditor;
 public class torchlight_Inspector : Editor
 {
     torchlight light;
+
     // Start is called before the first frame update
     private void Awake()
     {
-        light = GameObject.Find("Torchlight Light").GetComponent<torchlight>();
+        light = GameObject.Find("Torch").GetComponent<torchlight>();
     }
 
     // Update is called once per frame

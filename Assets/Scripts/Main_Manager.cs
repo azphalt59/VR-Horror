@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class Main_Manager : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class Main_Manager : MonoBehaviour
     public int StepIndex = 1;
     // Start is called before the first frame update
     public static Main_Manager Instance;
+    [SerializeField] private bool DoorsAreLocked = true;
+    [SerializeField] private List<XRGrabInteractable> grabs;
     public void Awake()
     {
         if (Instance != null && Instance != this)
@@ -22,20 +26,33 @@ public class Main_Manager : MonoBehaviour
     }
     public void QuestUpdate(int ItemIndex)
     {
-        if (StepIndex+1 == QuestStepPrefab.Count)
+        if (StepIndex + 1 == QuestStepPrefab.Count)
         {
             Debug.Log("C'est gagné");
             return;
         }
-        Debug.Log("On passe à l'étape " + (StepIndex+1));
+        Debug.Log("On passe à l'étape " + (StepIndex + 1));
         DesactivePreviousSteQuest(ItemIndex);
-        if(ItemIndex<QuestStepPrefab.Count)
+        if (ItemIndex < QuestStepPrefab.Count)
         {
             LoadNextStepQuest(ItemIndex + 1);
         }
-        
+
     }
 
+    public void ActiveDoor()
+    {
+        if(DoorsAreLocked == true)
+        {
+            foreach (XRGrabInteractable grab in grabs)
+            {
+                grab.enabled = true;
+                //grab.gameObject.GetComponent<HandleDoor>().
+            }
+            DoorsAreLocked = false;
+        }
+        
+    }
     private void LoadNextStepQuest(int ItemIndex)
     {
         QuestItems[ItemIndex].SetActive(true);
@@ -52,3 +69,4 @@ public class Main_Manager : MonoBehaviour
         // Mettre l'anim de disappear
     }
 }
+

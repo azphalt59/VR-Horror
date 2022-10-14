@@ -8,6 +8,8 @@ public class torchlight : MonoBehaviour
     [SerializeField]
     private InputActionReference lightActionLeft, lightActionRight;
     public bool isGrab = false;
+    [SerializeField]
+    private GameObject LightGameObject;
     // Start is called before the first frame update
 
     private void OnEnable()
@@ -20,14 +22,14 @@ public class torchlight : MonoBehaviour
     {
         if(isGrab == true)
         {
-            if (GetComponent<Light>().enabled == true)
+            if (LightGameObject.GetComponent<Light>().enabled == true)
             {
-                GetComponent<Light>().enabled = false;
+                LightGameObject.GetComponent<Light>().enabled = false;
                 return;
             }
-            if (GetComponent<Light>().enabled == false)
+            if (LightGameObject.GetComponent<Light>().enabled == false)
             {
-                GetComponent<Light>().enabled = true;
+                LightGameObject.GetComponent<Light>().enabled = true;
 
             }
             return;
@@ -35,17 +37,23 @@ public class torchlight : MonoBehaviour
     }
     public void Perform()
     {
-        if (GetComponent<Light>().enabled == true)
+        if (isGrab == true)
         {
-            GetComponent<Light>().enabled = false;
-            return;
-        }
-        if (GetComponent<Light>().enabled == false)
-        {
-            GetComponent<Light>().enabled = true;
+            if (LightGameObject.GetComponent<Light>().enabled == true)
+            {
+                LightGameObject.GetComponent<Light>().enabled = false;
+                return;
+            }
+            if (LightGameObject.GetComponent<Light>().enabled == false)
+            {
+                LightGameObject.GetComponent<Light>().enabled = true;
+
+            }
             return;
         }
     }
+
+
     
 
 
@@ -57,6 +65,6 @@ public class torchlight : MonoBehaviour
 
     void Start()
     {
-        GetComponent<Light>().enabled = false;
+        LightGameObject.GetComponent<Light>().enabled = false;
     }
 }
