@@ -8,6 +8,18 @@ public class Main_Manager : MonoBehaviour
     public List<GameObject> QuestStepPrefab;
     public int StepIndex = 1;
     // Start is called before the first frame update
+    public static Main_Manager Instance;
+    public void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
     public void QuestUpdate(int ItemIndex)
     {
         if (StepIndex+1 == QuestStepPrefab.Count)
