@@ -91,7 +91,8 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3451118302482216456, guid: 3c541c6bc294abb4abd2a07090fd7da7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3c541c6bc294abb4abd2a07090fd7da7, type: 3}
 --- !u!1 &4981202243195439149 stripped
 GameObject:
