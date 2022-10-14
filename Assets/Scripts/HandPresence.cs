@@ -11,8 +11,8 @@ public class HandPresence : MonoBehaviour
 	public GameObject handModelPrefab;
 
 	private InputDevice targetDevice;
-	private GameObject spawnedController;
-	private GameObject spawnedHandModel;
+	public GameObject spawnedController;
+	public GameObject spawnedHandModel;
 	private Animator handAnimator;
 
 	// Start is called before the first frame update
