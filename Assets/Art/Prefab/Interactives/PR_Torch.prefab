@@ -283,6 +283,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1798435565188250780
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5365252534806675686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0007550846
+  m_Height: 0.0037162541
+  m_Direction: 1
+  m_Center: {x: -0.00011159489, y: 0.00018107057, z: 0.000011076452}
 --- !u!114 &5800670545166376189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,3 +426,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightActionLeft: {fileID: 5113088590926889233, guid: e0ca4504471ca124088e1e2cfe6804ae, type: 3}
   lightActionRight: {fileID: 11711766586467970, guid: e0ca4504471ca124088e1e2cfe6804ae, type: 3}
+  isGrab: 0
