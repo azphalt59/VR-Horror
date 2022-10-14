@@ -427,3 +427,4 @@ MonoBehaviour:
   lightActionLeft: {fileID: 5113088590926889233, guid: e0ca4504471ca124088e1e2cfe6804ae, type: 3}
   lightActionRight: {fileID: 11711766586467970, guid: e0ca4504471ca124088e1e2cfe6804ae, type: 3}
   isGrab: 0
+  LightGameObject: {fileID: 4058814901052194130}
