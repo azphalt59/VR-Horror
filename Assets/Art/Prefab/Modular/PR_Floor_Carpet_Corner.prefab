@@ -91,27 +91,9 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3451118302482216456, guid: c3707bec45622a742a1aa57f5d64c887, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c3707bec45622a742a1aa57f5d64c887, type: 3}
---- !u!1 &1568988252824353780 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c3707bec45622a742a1aa57f5d64c887, type: 3}
-  m_PrefabInstance: {fileID: 1803484191733974693}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &5372782221779204296
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568988252824353780}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -969019381128114245, guid: c3707bec45622a742a1aa57f5d64c887, type: 3}
 --- !u!4 &2201690861097148750 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c3707bec45622a742a1aa57f5d64c887, type: 3}

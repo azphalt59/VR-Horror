@@ -95,7 +95,8 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3451118302482216456, guid: b315cfb8cbed5644f95112d922d715e2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b315cfb8cbed5644f95112d922d715e2, type: 3}
 --- !u!1 &7302311523428597263 stripped
 GameObject:
@@ -113,8 +114,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01116637, y: 0.0060046515, z: 0.011794265}
-  m_Center: {x: 0.00042475155, y: 0.00004285969, z: 0.005847552}
+  m_Size: {x: 0.011679322, y: 0.005688393, z: 0.002947811}
+  m_Center: {x: 0.00062168285, y: 0.00020096262, z: 0.0014242203}
 --- !u!4 &7934450876868175029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b315cfb8cbed5644f95112d922d715e2, type: 3}

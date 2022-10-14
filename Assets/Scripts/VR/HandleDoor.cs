@@ -99,8 +99,12 @@ public class HandleDoor : MonoBehaviour
     }
     public void resetPosition()
     {
-        transform.position = meshKnob.transform.position;
-        meshOtherKnob.transform.position = meshOtherKnob.transform.position;
+        if(meshKnob != null)
+        {
+            transform.position = meshKnob.transform.position;
+            meshOtherKnob.transform.position = meshOtherKnob.transform.position;
+        }
+        
     }
 }
 
