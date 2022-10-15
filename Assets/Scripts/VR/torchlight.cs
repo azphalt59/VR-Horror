@@ -18,9 +18,17 @@ public class torchlight : MonoBehaviour
         lightActionLeft.action.performed += PerformLight;
         lightActionRight.action.performed += PerformLight; 
     }
-    public void GrabState()
+    public void Grab()
     {
-        isGrab = !isGrab;
+        isGrab = true;
+    }
+    public void Throw()
+    {
+        isGrab = false;
+    }
+    public void UnlockDoors()
+    {
+        Main_Manager.Instance.ActiveDoor();
     }
     private void PerformLight(InputAction.CallbackContext obj)
     {
