@@ -56,7 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Tool\LSS_ModelsBase.cs" />
+    <Compile Include="Assets\Scripts\TriggerAction\Lightning.cs" />
     <Compile Include="Assets\Scripts\VR\HandleDoor.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_ComponentBase.cs" />
+    <Compile Include="Assets\Tool\LSS_FrontEndBase.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_GameObject.cs" />
+    <Compile Include="Assets\Scripts\TriggerEvent.cs" />
     <Compile Include="Assets\Scripts\VR\ActionToMovement.cs" />
     <Compile Include="Assets\Scripts\ClassiqControleur.cs" />
     <Compile Include="Assets\Scripts\Main_Manager.cs" />
@@ -64,31 +70,25 @@
     <Compile Include="Assets\Scripts\playerTeleporter.cs" />
     <Compile Include="Assets\Scripts\TriggerCloseDoor.cs" />
     <Compile Include="Assets\Scripts\VR\Key.cs" />
+    <Compile Include="Assets\Tool\LSS_FrontEnd.cs" />
+    <Compile Include="Assets\Tool\LSS_Models.cs" />
+    <Compile Include="Assets\Tool\FindMissingScriptsRecursively.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_Light.cs" />
     <Compile Include="Assets\Scripts\VR\ActionToRotation.cs" />
     <Compile Include="Assets\Scripts\SpectralItem.cs" />
     <Compile Include="Assets\Scripts\VR\Spawnable.cs" />
     <Compile Include="Assets\Scripts\VR\PlayerDetector.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_LensFlare.cs" />
     <Compile Include="Assets\Scripts\HandPresence.cs" />
     <Compile Include="Assets\Scripts\VR\ActionToTeleportation.cs" />
     <Compile Include="Assets\Scripts\VR\Pedestal.cs" />
+    <Compile Include="Assets\Tool\LSS_UID.cs" />
+    <Compile Include="Assets\Tool\Component\LSS_Material.cs" />
+    <Compile Include="Assets\Tool\UniqueId.cs" />
+    <Compile Include="Assets\Tool\ChangeLightingOnEnable.cs" />
     <Compile Include="Assets\Trigger.cs" />
     <Compile Include="Assets\Scripts\VR\torchlight.cs" />
     <Compile Include="Assets\Scripts\VR\Door.cs" />
-    <Compile Include="Assets\Tool\Component\LSS_Light.cs" />
-    <Compile Include="Assets\Tool\Component\LSS_LensFlare.cs" />
-    <Compile Include="Assets\Tool\UniqueId.cs" />
-    <Compile Include="Assets\Scripts\TriggerEvent.cs" />
-    <Compile Include="Assets\Tool\Component\LSS_Material.cs" />
-    <Compile Include="Assets\Tool\Component\LSS_ComponentBase.cs" />
-    <Compile Include="Assets\Tool\LSS_FrontEnd.cs" />
-    <Compile Include="Assets\Tool\LSS_ModelsBase.cs" />
-    <Compile Include="Assets\Tool\LSS_UID.cs" />
-    <Compile Include="Assets\Tool\LSS_FrontEndBase.cs" />
-    <Compile Include="Assets\Tool\FindMissingScriptsRecursively.cs" />
-    <Compile Include="Assets\Scripts\TriggerAction\Lightning.cs" />
-    <Compile Include="Assets\Tool\LSS_Models.cs" />
-    <Compile Include="Assets\Tool\ChangeLightingOnEnable.cs" />
-    <Compile Include="Assets\Tool\Component\LSS_GameObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Couloir_1Ambiant\mapconfig.txt" />
