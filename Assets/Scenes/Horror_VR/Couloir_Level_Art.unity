@@ -363,6 +363,112 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_2b217690-adef-4526-9d84-2e31b4d0050d
   m_searchTags: []
+--- !u!1 &84127941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 84127944}
+  - component: {fileID: 84127943}
+  - component: {fileID: 84127942}
+  - component: {fileID: 84127945}
+  m_Layer: 0
+  m_Name: FootStep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &84127942
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84127941}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &84127943
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84127941}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &84127944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84127941}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.9780303, y: -1.1549654, z: -0.15394592}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1297613923}
+  m_Father: {fileID: 128528567}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84127945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84127941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6920f57546bbb894cb88e48fb13791a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  EndPosition: {fileID: 279881584}
+  Audio: {fileID: 1297613924}
+  FootStepClips:
+  - {fileID: 8300000, guid: 633941a2120f19c419f13ba1e807b744, type: 3}
+  - {fileID: 8300000, guid: 9e2009b3299f05649affb6c60f8634dd, type: 3}
+  - {fileID: 8300000, guid: 7a952c8d442c7f544948712d3d61ef3e, type: 3}
+  DoorClip: {fileID: 8300000, guid: 75e898397f6aa704bb254cbf8097e11b, type: 3}
+  FootStepDelay: 1
 --- !u!1 &88406004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 503286629562202184, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
@@ -439,6 +545,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_18c8c25b-2716-43cc-9498-1ebab8aea596
   m_searchTags: []
+--- !u!1 &128528566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128528567}
+  m_Layer: 0
+  m_Name: FootStepParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &128528567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128528566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8480303, y: 1.9349654, z: 19.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 84127944}
+  - {fileID: 279881584}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &136433653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1650121078339261740, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
@@ -552,25 +691,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_5cab884d-0346-43b9-9888-c2a294e83f28
-  m_searchTags: []
---- !u!1 &189243602 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5365252534806675686, guid: 45c2e2594ca7b5a4fb21cc660a711f08, type: 3}
-  m_PrefabInstance: {fileID: 1067852931}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &189243610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189243602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_98edc5f3-8aa3-4da2-8309-ef9a81762749
   m_searchTags: []
 --- !u!1 &193669499 stripped
 GameObject:
@@ -686,6 +806,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_554d307e-9d3c-492e-a04c-ac0a9cdd863d
   m_searchTags: []
+--- !u!1 &279881583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 279881584}
+  m_Layer: 0
+  m_Name: FootStep EndPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &279881584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279881583}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.9780303, y: -1.1549654, z: -20.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 128528567}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &285614266 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8756401754220109291, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
@@ -1311,25 +1462,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_68c92a88-f861-45f0-90b7-a8aa08f417bb
   m_searchTags: []
---- !u!1 &606009185 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3890679505975755629, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
-  m_PrefabInstance: {fileID: 7830097722279089155}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &606009193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606009185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_26c1df5e-abce-4f11-b121-ebf192113d27
-  m_searchTags: []
 --- !u!1 &615350040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8756401755181457968, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
@@ -1405,25 +1537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_b285e9c0-525c-4577-85d4-82902a987a25
-  m_searchTags: []
---- !u!1 &669640014 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4217069115958069456, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
-  m_PrefabInstance: {fileID: 7830097722279089155}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &669640022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669640014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1ffa3d26-36f6-4ada-941a-415091d1b39b
   m_searchTags: []
 --- !u!1 &692612053 stripped
 GameObject:
@@ -2595,7 +2708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2603,23 +2716,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.21
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.13099563
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.99138296
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2627,7 +2740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -164.946
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584760205593956007, guid: 020e7082af38e9d4994976c089371a37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2806,6 +2919,134 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_6cb817ad-8787-41a1-a06b-845e4f64ce6e
   m_searchTags: []
+--- !u!1 &1297613922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1297613923}
+  - component: {fileID: 1297613924}
+  m_Layer: 0
+  m_Name: Audiosource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1297613923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297613922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 84127944}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1297613924
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297613922}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 25
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1299448268 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8651201682222557501, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
@@ -2881,25 +3122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_cee7da28-c148-4924-a356-ba5e77a094b8
-  m_searchTags: []
---- !u!1 &1338162694 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 107670500669070183, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
-  m_PrefabInstance: {fileID: 7830097722279089155}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1338162698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338162694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1aab804f-abf7-4106-be2f-ffbba22fd778
   m_searchTags: []
 --- !u!1 &1342977719 stripped
 GameObject:
@@ -3407,25 +3629,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_386af8ec-5fd5-42cf-bb7a-c55644ff6131
-  m_searchTags: []
---- !u!1 &1673162902 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3399485958406899267, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
-  m_PrefabInstance: {fileID: 7830097722279089155}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1673162907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673162902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_3032451d-ec45-4f70-96b0-e478796b87b5
   m_searchTags: []
 --- !u!1 &1673400724 stripped
 GameObject:
@@ -4167,25 +4370,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_830952f4-af39-4eb1-bef5-f24d02b24571
   m_searchTags: []
---- !u!1 &1964824886 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5851911794204751194, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
-  m_PrefabInstance: {fileID: 7830097722279089155}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1964824891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964824886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7aa1235d-8dae-4fd6-beb4-d6b472adf3f5
-  m_searchTags: []
 --- !u!1 &2004171867 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5850408968453405735, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
@@ -4230,7 +4414,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-882658
+  m_Name: pb_Mesh-1992
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4886,7 +5070,7 @@ PrefabInstance:
       objectReference: {fileID: 2011035264}
     - target: {fileID: 1470666671257056331, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
       propertyPath: m_VersionIndex
-      value: 357
+      value: 393
       objectReference: {fileID: 0}
     - target: {fileID: 2948976368007730582, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
       propertyPath: m_RootOrder
@@ -4940,6 +5124,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2011035264}
+    - target: {fileID: 9161107850629658284, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
 --- !u!1001 &7830097722279089155
