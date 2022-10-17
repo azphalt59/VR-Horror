@@ -33,7 +33,7 @@ public class HandleDoor : MonoBehaviour
     void Start()
     {
         startDoorRotation = Door.transform.localEulerAngles.y;
-        UnlockDoor(20);
+        
         
         if (inverseSpeed == true)
         {

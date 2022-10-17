@@ -12,14 +12,27 @@ public class torchlight : MonoBehaviour
     private GameObject LightGameObject;
     // Start is called before the first frame update
 
+    
     private void OnEnable()
     {
         lightActionLeft.action.performed += PerformLight;
         lightActionRight.action.performed += PerformLight; 
     }
-
+    public void Grab()
+    {
+        isGrab = true;
+    }
+    public void Throw()
+    {
+        isGrab = false;
+    }
+    public void UnlockDoors()
+    {
+        Main_Manager.Instance.ActiveDoor();
+    }
     private void PerformLight(InputAction.CallbackContext obj)
     {
+        
         if(isGrab == true)
         {
             if (LightGameObject.GetComponent<Light>().enabled == true)
@@ -30,11 +43,12 @@ public class torchlight : MonoBehaviour
             if (LightGameObject.GetComponent<Light>().enabled == false)
             {
                 LightGameObject.GetComponent<Light>().enabled = true;
-
+                return;
             }
-            return;
+            
         }
     }
+    
     public void Perform()
     {
         if (isGrab == true)

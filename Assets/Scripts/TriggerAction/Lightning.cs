@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class Lightning : MonoBehaviour
 {
-
-   // [SerializeField] string loadFloader;
-
-
-  
+    [SerializeField] AudioSource LightingAudio;
     public void Lightnin(string loadFloader )
     {
         GetComponent<Animator>().SetBool("Isactive", true);
+        if(LightingAudio != null)
+        {
+            LightingAudio.Play();
+        }
         GameObject.FindObjectOfType<LSS_FrontEnd>().Load(loadFloader);
     }
     public void OnFinish()

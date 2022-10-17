@@ -47,7 +47,7 @@ public class Main_Manager : MonoBehaviour
             foreach (XRGrabInteractable grab in grabs)
             {
                 grab.enabled = true;
-                //grab.gameObject.GetComponent<HandleDoor>().
+                grab.gameObject.GetComponent<HandleDoor>().UnlockDoor(20);
             }
             DoorsAreLocked = false;
         }
