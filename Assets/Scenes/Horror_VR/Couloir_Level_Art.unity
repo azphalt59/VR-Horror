@@ -3592,6 +3592,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_386af8ec-5fd5-42cf-bb7a-c55644ff6131
   m_searchTags: []
+--- !u!114 &1662935682 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9062912116507679207, guid: 45c2e2594ca7b5a4fb21cc660a711f08, type: 3}
+  m_PrefabInstance: {fileID: 1067852931}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1e68780a8552d4394d40f687dc6bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1673400724 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5821904845725625638, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
@@ -4667,9 +4678,53 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6753889668177154150, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753889668177154150, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753889668177154150, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1662935682}
+    - target: {fileID: 6753889668177154150, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753889668177154150, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DarkWorld
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753889668177154150, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: torchlight, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753889668177154150, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7394739060091575102, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
       propertyPath: m_Name
       value: MainManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950796542050882701, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1662935682}
+    - target: {fileID: 7950796542050882701, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RealWorld
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950796542050882701, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: torchlight, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950796542050882701, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9150924116889827158, guid: 021c68d99a9b84d42bada77bb89922f0, type: 3}
       propertyPath: m_RootOrder
@@ -5032,7 +5087,7 @@ PrefabInstance:
       objectReference: {fileID: 2011035264}
     - target: {fileID: 1470666671257056331, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
       propertyPath: m_VersionIndex
-      value: 396
+      value: 399
       objectReference: {fileID: 0}
     - target: {fileID: 2948976368007730582, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
       propertyPath: m_RootOrder
@@ -5088,7 +5143,7 @@ PrefabInstance:
       objectReference: {fileID: 2011035264}
     - target: {fileID: 9161107850629658284, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4819fba259fb546a4c36f57332a39d, type: 3}
@@ -5101,7 +5156,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 301027241269873262, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 503286627900088969, guid: a2ee431b44991654ca13c32b60c72350, type: 3}
       propertyPath: m_Layer

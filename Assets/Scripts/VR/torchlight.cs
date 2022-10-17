@@ -8,6 +8,7 @@ public class torchlight : MonoBehaviour
     [SerializeField]
     private InputActionReference lightActionLeft, lightActionRight;
     public bool isGrab = false;
+    public bool inRealWorld = true;
     [SerializeField]
     private GameObject LightGameObject;
     // Start is called before the first frame update
@@ -25,6 +26,14 @@ public class torchlight : MonoBehaviour
     public void Throw()
     {
         isGrab = false;
+    }
+    public void RealWorld()
+    {
+        inRealWorld = true;
+    }
+    public void DarkWorld()
+    {
+        inRealWorld = false;
     }
     public void UnlockDoors()
     {

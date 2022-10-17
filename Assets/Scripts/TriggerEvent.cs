@@ -7,13 +7,12 @@ using UnityEngine.EventSystems;
 public class TriggerEvent : MonoBehaviour
 {
     public UnityEvent Event;
-    public string interactorTag;
 
     // Start is called before the first frame update
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == interactorTag)
+        if(other.tag == "Player")
         {
             Event.Invoke();
         }
