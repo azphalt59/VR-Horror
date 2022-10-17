@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Main_Manager.cs" />
     <Compile Include="Assets\Scripts\VR\Drawer.cs" />
     <Compile Include="Assets\Scripts\playerTeleporter.cs" />
+    <Compile Include="Assets\Scripts\Footstep.cs" />
     <Compile Include="Assets\Scripts\TriggerCloseDoor.cs" />
     <Compile Include="Assets\Scripts\VR\Key.cs" />
     <Compile Include="Assets\Tool\LSS_FrontEnd.cs" />
@@ -89,7 +90,6 @@
     <Compile Include="Assets\Trigger.cs" />
     <Compile Include="Assets\Scripts\VR\torchlight.cs" />
     <Compile Include="Assets\Scripts\VR\Door.cs" />
-    <Compile Include="Assets\Scripts\Footstep.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Couloir_1Ambiant\mapconfig.txt" />

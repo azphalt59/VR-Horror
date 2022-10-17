@@ -11,6 +11,16 @@ public class torchlight : MonoBehaviour
     public bool inRealWorld = true;
     [SerializeField]
     private GameObject LightGameObject;
+    private Light GetLight;
+    public float SpeedIntensity =1f;
+    private bool Downgrade = false;
+    private bool Upgrade = false;
+    [SerializeField]
+    private float MaxIntensity;
+    [SerializeField] private int FlashingLoop = 2;
+    [SerializeField]
+    private int currLoop = 0;
+    private float SpeedMultiplier = 1f;
     // Start is called before the first frame update
 
     
@@ -44,41 +54,23 @@ public class torchlight : MonoBehaviour
         
         if(isGrab == true)
         {
-            if (LightGameObject.GetComponent<Light>().enabled == true)
+            if (GetLight.enabled == true)
             {
-                LightGameObject.GetComponent<Light>().enabled = false;
+                GetLight.enabled = false;
                 return;
             }
-            if (LightGameObject.GetComponent<Light>().enabled == false)
+            if (GetLight.enabled == false)
             {
-                LightGameObject.GetComponent<Light>().enabled = true;
+                GetLight.enabled = true;
                 return;
             }
-            
         }
     }
     
     public void Perform()
     {
-        if (isGrab == true)
-        {
-            if (LightGameObject.GetComponent<Light>().enabled == true)
-            {
-                LightGameObject.GetComponent<Light>().enabled = false;
-                return;
-            }
-            if (LightGameObject.GetComponent<Light>().enabled == false)
-            {
-                LightGameObject.GetComponent<Light>().enabled = true;
-
-            }
-            return;
-        }
-    }
-
-
     
-
+    }
 
     private void OnDisable()
     {
@@ -88,6 +80,70 @@ public class torchlight : MonoBehaviour
 
     void Start()
     {
-        LightGameObject.GetComponent<Light>().enabled = false;
+        GetLight = LightGameObject.GetComponent<Light>();
+        GetLight.enabled = false;
+        MaxIntensity = GetLight.intensity;
+
+    }
+    private void Update()
+    {
+        if(inRealWorld == false)
+        {
+            LowerAndUperIntensity();
+        }
+    }
+    public void FlashingLight()
+    {
+
+    }
+    public void LowerAndUperIntensity()
+    {
+        if(currLoop < FlashingLoop)
+        {
+            if (GetLight.intensity <= 0)
+            {
+                Downgrade = false;
+                Upgrade = true;
+                currLoop++;
+            }
+            if (GetLight.intensity >= MaxIntensity)
+            {
+                Upgrade = false;
+                Downgrade = true;
+            }
+            if (Upgrade)
+            {
+                HigherIntensity();
+            }
+            if (Downgrade)
+            {
+                LowerIntensity();
+            }
+        }
+        if(currLoop == FlashingLoop)
+        {
+            GetLight.enabled = false;
+        }
+        
+    }
+    public void LowerIntensity()
+    {
+        if(currLoop == FlashingLoop - 1)
+        {
+            SpeedMultiplier = 0.04f;
+        }
+        else
+        {
+            SpeedMultiplier = 1f;
+        }
+        GetLight.intensity -= Time.deltaTime * SpeedIntensity * MaxIntensity * SpeedMultiplier;
+    }
+    public void HigherIntensity()
+    {
+        if(GetLight.intensity < MaxIntensity)
+        {
+            GetLight.intensity += Time.deltaTime * SpeedIntensity *MaxIntensity;
+        }
+       
     }
 }

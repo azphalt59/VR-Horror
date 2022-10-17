@@ -17,9 +17,6 @@ public class TriggerEvent : MonoBehaviour
             Event.Invoke();
         }
     }
-    public void Debugger(string blablabla)
-    {
-        Debug.Log(blablabla);
-    }
+    
 
 }
