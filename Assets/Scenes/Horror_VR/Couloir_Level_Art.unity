@@ -464,10 +464,10 @@ MonoBehaviour:
   EndPosition: {fileID: 279881584}
   Audio: {fileID: 1297613924}
   FootStepClips:
-  - {fileID: 8300000, guid: 633941a2120f19c419f13ba1e807b744, type: 3}
-  - {fileID: 8300000, guid: 9e2009b3299f05649affb6c60f8634dd, type: 3}
-  - {fileID: 8300000, guid: 7a952c8d442c7f544948712d3d61ef3e, type: 3}
-  DoorClip: {fileID: 8300000, guid: 75e898397f6aa704bb254cbf8097e11b, type: 3}
+  - {fileID: 8300000, guid: 2c17c4a5e9a833d4d8d4383d846fcdda, type: 3}
+  - {fileID: 8300000, guid: 76984d3b4b49c144385dfe4661df9198, type: 3}
+  - {fileID: 8300000, guid: 3e9486fba8de0bb4ba4a3a646327f828, type: 3}
+  DoorClip: {fileID: 8300000, guid: 9c33e9039be76dc43b2bc5c578eb6734, type: 3}
   FootStepDelay: 1
 --- !u!1 &88406004 stripped
 GameObject:
