@@ -106,7 +106,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8140332325544567886}
   m_Father: {fileID: 8311382452953197164}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -498,7 +499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5272436520557595475}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: PR_Wallpaper_DoorFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5272436520459272328}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: PR_Wallpaper_DoorFrame (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,6 +773,61 @@ Transform:
   m_Father: {fileID: 4566308816774106088}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6754799131531674336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8140332325544567886}
+  - component: {fileID: 194781834235585160}
+  m_Layer: 0
+  m_Name: key
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8140332325544567886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6754799131531674336}
+  m_LocalRotation: {x: -0.000082336366, y: -0.7071038, z: -0.00008235872, w: 0.7071098}
+  m_LocalPosition: {x: -1.666, y: -0.13499999, z: 5.025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6980548382894801894}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.013, y: -90, z: 0}
+--- !u!114 &194781834235585160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6754799131531674336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 04870f35e58088841a4b2a0285a48023, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 4, y: 4, z: 1}
+  m_FadeFactor: 1
 --- !u!1 &7714068221014549278
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,6 +975,7 @@ Transform:
   - {fileID: 7830097723251399423}
   - {fileID: 8311382452953197164}
   - {fileID: 7830097722269770101}
+  - {fileID: 2430797604480094784}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1045,7 +1102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7830097723082664709}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1286,6 +1343,121 @@ Transform:
   m_Father: {fileID: 8311382452953197164}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8935550818570967065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2430797604480094784}
+  - component: {fileID: 2323818826587768743}
+  - component: {fileID: 6847839456454842887}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2430797604480094784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935550818570967065}
+  m_LocalRotation: {x: 0.70591736, y: 0.29380766, z: -0.4438421, w: 0.46729216}
+  m_LocalPosition: {x: -4.0568085, y: 2.373243, z: -5.390815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7830097722408519422}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 112.994, y: 64.319, z: 0}
+--- !u!108 &2323818826587768743
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935550818570967065}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &6847839456454842887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935550818570967065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &9018846911483344350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1977,6 +2149,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1234084713414951615, guid: 5d03b46319097394abe723b89915273f, type: 3}
   m_PrefabInstance: {fileID: 134994745551501055}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6280803513964194475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6266332845140630612, guid: 5d03b46319097394abe723b89915273f, type: 3}
+  m_PrefabInstance: {fileID: 134994745551501055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &367482852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6280803513964194475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d604700e-c5e0-4ad0-b951-f6b558584694
+  m_searchTags: []
 --- !u!1001 &144783290888780026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2292,6 +2483,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+--- !u!1 &3261804219466826499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324791249986011827, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 243275337252635056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &931489847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3261804219466826499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ed8d891c-16db-4fd3-a134-a425e7ff41a5
+  m_searchTags: []
+--- !u!1 &5986645131725240178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5797434155700811458, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 243275337252635056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &763676157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5986645131725240178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_f6a8c194-5e3a-4e06-9f25-b0497a1941a2
+  m_searchTags: []
+--- !u!1 &8136118907491398157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8325190519878824893, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 243275337252635056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1007958273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8136118907491398157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e350d7b0-3cf1-444c-b5b4-6b9d24c5bea9
+  m_searchTags: []
 --- !u!4 &9132044060121923555 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9069053454949219923, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
@@ -2775,6 +3023,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1234084713414951615, guid: 5d03b46319097394abe723b89915273f, type: 3}
   m_PrefabInstance: {fileID: 560328101063876723}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5850408968453405735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6266332845140630612, guid: 5d03b46319097394abe723b89915273f, type: 3}
+  m_PrefabInstance: {fileID: 560328101063876723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2004171871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5850408968453405735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ba6b5d2b-978a-4965-9448-c2f940211b4d
+  m_searchTags: []
 --- !u!1001 &609041399229217840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3256,7 +3523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3283,6 +3550,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6614110041110822420, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
+--- !u!114 &23360892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503286629167804887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_caf889c2-af59-484a-afe9-0477f6ad501b
+  m_searchTags: []
 --- !u!4 &988496315269802861 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
@@ -3345,7 +3626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3372,6 +3653,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6614110041110822420, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
+--- !u!114 &1559371921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503286629266651660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_fec78c51-98d2-4d4f-9833-c7505e8bebeb
+  m_searchTags: []
 --- !u!4 &988496315163091126 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 77d99d0356aa85d47808cd3cd7091f2a, type: 3}
@@ -3582,6 +3877,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be4e922ef65bf414d94da7e6c5302932, type: 3}
+--- !u!1 &2329504874698547406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3116689692656707776, guid: be4e922ef65bf414d94da7e6c5302932, type: 3}
+  m_PrefabInstance: {fileID: 798443991310665742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &435369632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2329504874698547406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_33fad90f-6c7b-4af1-8954-97baaa3e618f
+  m_searchTags: []
 --- !u!4 &6956139370851365913 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7754511859174767639, guid: be4e922ef65bf414d94da7e6c5302932, type: 3}
@@ -5276,6 +5590,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7fbf518ba47cc14db06ce1680b6c9dc, type: 3}
+--- !u!1 &4953895264362684389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6015571202270355697, guid: a7fbf518ba47cc14db06ce1680b6c9dc, type: 3}
+  m_PrefabInstance: {fileID: 1712598607161933588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7830097722279089160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953895264362684389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_c066925f-3cb6-448b-9be3-c4ed58768dc6
+  m_searchTags: []
 --- !u!4 &6585941161057956385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5521881310140599605, guid: a7fbf518ba47cc14db06ce1680b6c9dc, type: 3}
@@ -5556,11 +5889,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2149581562d51154aac785e71277042d, type: 3}
+--- !u!1 &710705994800180205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1582052441154321728, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 2029006898313090733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &297623396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710705994800180205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_23ef0afa-3439-40bc-aa95-7589fddf19d3
+  m_searchTags: []
+--- !u!1 &2238091741295348713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 227211409403010372, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 2029006898313090733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &968887832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2238091741295348713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_3dd19f1e-2e7d-45dd-9444-3640a0b3291f
+  m_searchTags: []
 --- !u!4 &4154876828887757217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 2149581562d51154aac785e71277042d, type: 3}
   m_PrefabInstance: {fileID: 2029006898313090733}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5503862085596293118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5785399708359979347, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 2029006898313090733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1814311070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5503862085596293118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_18cc6b8f-8cf1-4db4-aa5c-646daadeb378
+  m_searchTags: []
 --- !u!1001 &2062726604843022643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5837,6 +6227,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
   m_PrefabInstance: {fileID: 2105018592991665069}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6843828835823067349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 2105018592991665069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1809715721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6843828835823067349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_950ea233-beeb-4992-90e1-1bf75777c301
+  m_searchTags: []
 --- !u!1001 &2122822496782072730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6502,6 +6911,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3541907226247894626, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
   m_PrefabInstance: {fileID: 2309703015906564058}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5720202725268839033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8029786973962800547, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+  m_PrefabInstance: {fileID: 2309703015906564058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1587068563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720202725268839033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_004cc2e8-adbb-47c3-9afe-e8e2db704b73
+  m_searchTags: []
 --- !u!1001 &2322174689011021943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6786,6 +7214,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1234084713414951615, guid: 5d03b46319097394abe723b89915273f, type: 3}
   m_PrefabInstance: {fileID: 2546632160838003386}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8476065802832705262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6266332845140630612, guid: 5d03b46319097394abe723b89915273f, type: 3}
+  m_PrefabInstance: {fileID: 2546632160838003386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1891370606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8476065802832705262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_428f5fc6-fb8b-4c9f-bd13-a12ddcdca395
+  m_searchTags: []
 --- !u!1001 &2551199755967056379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7989,7 +8436,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1754883500871616075, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_RootOrder
@@ -8041,11 +8488,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7662330375527341448, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
@@ -8054,6 +8501,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
   m_PrefabInstance: {fileID: 3198916263495965882}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3764530294741277425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1754883500871616075, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 3198916263495965882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2106239981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764530294741277425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_2944119c-0166-43bb-b1b8-314232530922
+  m_searchTags: []
+--- !u!1 &5058322509315408178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7662330375527341448, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 3198916263495965882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &590072317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5058322509315408178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_68c92a88-f861-45f0-90b7-a8aa08f417bb
+  m_searchTags: []
 --- !u!1001 &3215938699316466341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8381,6 +8866,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
+--- !u!1 &847077195345697634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2801163038316868928, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
+  m_PrefabInstance: {fileID: 3251272142691413538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &933126298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847077195345697634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ec845214-2dac-4fc4-9d93-838ce08d6419
+  m_searchTags: []
 --- !u!4 &3695184312526367383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2186840960024200373, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
@@ -9171,6 +9675,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
+--- !u!1 &353259568203202258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4350925807373524736, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
+  m_PrefabInstance: {fileID: 4073101571726402002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1565320738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353259568203202258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_b1c405ec-67c3-42d0-aaaa-02337046c529
+  m_searchTags: []
 --- !u!4 &2091918989822887646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
@@ -9372,6 +9895,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3541907226247894626, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
   m_PrefabInstance: {fileID: 4136352800928711968}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6199431663631517827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8029786973962800547, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+  m_PrefabInstance: {fileID: 4136352800928711968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1546520862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199431663631517827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d0445592-ddc1-4d6e-93e0-80291b2a271f
+  m_searchTags: []
 --- !u!1001 &4149965044980109146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9730,6 +10272,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 753981522683813338, guid: eb03fd379d33b84489a2207777a3f238, type: 3}
   m_PrefabInstance: {fileID: 4297404893432571053}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7624744069889478553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5941367959134251828, guid: eb03fd379d33b84489a2207777a3f238, type: 3}
+  m_PrefabInstance: {fileID: 4297404893432571053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1371865907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624744069889478553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_5e5931a9-373a-4112-8171-feec1dce291d
+  m_searchTags: []
 --- !u!1001 &4338949902735318336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10356,6 +10917,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 753981522683813338, guid: eb03fd379d33b84489a2207777a3f238, type: 3}
   m_PrefabInstance: {fileID: 4576345857956764188}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7922263722368856360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5941367959134251828, guid: eb03fd379d33b84489a2207777a3f238, type: 3}
+  m_PrefabInstance: {fileID: 4576345857956764188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1451394058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922263722368856360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_63da4b9f-fa76-46d5-80cc-7bc9d0e1f11b
+  m_searchTags: []
 --- !u!1001 &4596403835595756696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10557,15 +11137,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5992777364931341675, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
@@ -10574,6 +11154,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4848336611535647956, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
   m_PrefabInstance: {fileID: 4668601187627561729}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1650121078339261740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 4668601187627561729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &136433658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650121078339261740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_767bcbda-031b-4b89-aa76-5b599c1636ab
+  m_searchTags: []
+--- !u!1 &2063254443740406929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 4668601187627561729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &703521329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063254443740406929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_35e7b805-b27d-4c60-9b60-68e9f1e57667
+  m_searchTags: []
 --- !u!1001 &4688801843591106300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12646,6 +13264,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 875230a036bc25141a5980740fdcedd0, type: 3}
+--- !u!1 &1971861866717165564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5388560672175881553, guid: 875230a036bc25141a5980740fdcedd0, type: 3}
+  m_PrefabInstance: {fileID: 5878735224560306861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &358615662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971861866717165564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_51a385e1-04c1-4bb2-9cfb-ddc50c347b44
+  m_searchTags: []
 --- !u!4 &3141586849715576654 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8794507605430736355, guid: 875230a036bc25141a5980740fdcedd0, type: 3}
@@ -12818,6 +13455,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df4ef521ff7d49b4f8dc76c6b0edc3cf, type: 3}
+--- !u!1 &3266829062362751962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9212818507302797654, guid: df4ef521ff7d49b4f8dc76c6b0edc3cf, type: 3}
+  m_PrefabInstance: {fileID: 5948298702960485004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1020608583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266829062362751962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a5e97d4d-d861-40ac-90a1-88408ca11f74
+  m_searchTags: []
 --- !u!4 &4112091388563824283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7754511859174767639, guid: df4ef521ff7d49b4f8dc76c6b0edc3cf, type: 3}
@@ -13888,6 +14544,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d03b46319097394abe723b89915273f, type: 3}
+--- !u!1 &1037633097628928540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6266332845140630612, guid: 5d03b46319097394abe723b89915273f, type: 3}
+  m_PrefabInstance: {fileID: 6381624072335529544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2092939821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037633097628928540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_6eee3912-7841-4ecd-8457-aafbeb991aee
+  m_searchTags: []
 --- !u!4 &5309828393090585847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1234084713414951615, guid: 5d03b46319097394abe723b89915273f, type: 3}
@@ -16104,6 +16779,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+--- !u!1 &306407803145113395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8029786973962800547, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+  m_PrefabInstance: {fileID: 7723423718311182992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1304966074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306407803145113395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_539382df-fa04-48ee-80ab-e9029c78fb8e
+  m_searchTags: []
 --- !u!4 &6487572877001807090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3541907226247894626, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
@@ -16267,6 +16961,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8825177036992826668, guid: 66505a1a31f341b40b3316f56899d49d, type: 3}
+--- !u!114 &166621890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947771874045366271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_5cab884d-0346-43b9-9888-c2a294e83f28
+  m_searchTags: []
 --- !u!1001 &7830097722116834843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16337,6 +17045,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722116834843}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551120742603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722116834843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1700961230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551120742603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_2b2392a8-af47-497a-8605-63d3a61588fe
+  m_searchTags: []
 --- !u!1001 &7830097722129672557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16407,6 +17134,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097722129672557}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401754962594047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097722129672557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &56780200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401754962594047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_95eb338f-7125-4cf4-9018-9460f10dfdcc
+  m_searchTags: []
 --- !u!1001 &7830097722135075567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16416,7 +17162,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -16468,7 +17214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -16477,6 +17223,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722135075567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551135835199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722135075567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1286434813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551135835199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_6cb817ad-8787-41a1-a06b-845e4f64ce6e
+  m_searchTags: []
 --- !u!1001 &7830097722150119917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16486,7 +17251,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -16538,7 +17303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -16547,6 +17312,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722150119917}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551154534205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722150119917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &992947828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551154534205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ae8d4052-4175-4cb6-8b5e-2f4486ad4717
+  m_searchTags: []
 --- !u!1001 &7830097722170522640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16612,6 +17396,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616608935266152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097722170522640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &752861450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616608935266152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a14d7349-9db8-415b-9dfd-1afe31110075
+  m_searchTags: []
 --- !u!4 &5272436520833145628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -16687,6 +17490,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 96f0f16eb7ee20641b22ec0ff712ce7c, type: 3}
   m_PrefabInstance: {fileID: 7830097722181417596}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8012442401912233695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 260066992109020323, guid: 96f0f16eb7ee20641b22ec0ff712ce7c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722181417596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2085879681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012442401912233695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_38002d6a-5190-4b42-8455-04ac4dbd2eb3
+  m_searchTags: []
 --- !u!1001 &7830097722199597586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16781,6 +17603,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9069053454949219923, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
   m_PrefabInstance: {fileID: 7830097722199597586}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2243668717976080815 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8325190519878824893, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 7830097722199597586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1033884404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243668717976080815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_2d4789f5-878a-4d6f-9641-110223574335
+  m_searchTags: []
+--- !u!1 &4386092356731802832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5797434155700811458, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 7830097722199597586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1675518090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386092356731802832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_4a0b55d0-c5a3-4ffb-b5e4-58272bd0a685
+  m_searchTags: []
+--- !u!1 &4795788667227676833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324791249986011827, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 7830097722199597586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1537772416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795788667227676833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_5da0ef33-7623-4700-9d6e-c9294a17ec90
+  m_searchTags: []
 --- !u!1001 &7830097722299326739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16846,6 +17725,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976660970173152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097722299326739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &16826782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976660970173152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_132125d7-ada5-4cce-9738-3b9e21a7b08b
+  m_searchTags: []
 --- !u!4 &5272436520976959007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -16940,6 +17838,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
+--- !u!1 &5365373295136173872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2801163038316868928, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
+  m_PrefabInstance: {fileID: 7830097722314185328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1754614745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5365373295136173872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_71d69b88-5bb9-4545-86ec-9871bb8e7c27
+  m_searchTags: []
 --- !u!4 &8282999464791482053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2186840960024200373, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
@@ -17010,6 +17927,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
+--- !u!1 &2052781147310740672 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8130943425875482653, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
+  m_PrefabInstance: {fileID: 7830097722379619549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &17061126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052781147310740672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_bffb5bff-caf0-47e3-b83a-5ed873d4f1a9
+  m_searchTags: []
 --- !u!4 &5272436521026694097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
@@ -17085,6 +18021,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722397056677}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551402532981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722397056677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2027292961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551402532981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d0c8875e-9d70-42df-9d3e-81df8fdab875
+  m_searchTags: []
 --- !u!1001 &7830097722471917456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17155,6 +18110,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7754511859174767639, guid: be4e922ef65bf414d94da7e6c5302932, type: 3}
   m_PrefabInstance: {fileID: 7830097722471917456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5182144157411708752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3116689692656707776, guid: be4e922ef65bf414d94da7e6c5302932, type: 3}
+  m_PrefabInstance: {fileID: 7830097722471917456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1575066661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5182144157411708752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d4993aae-7f2f-4239-ae20-135238c8e2d0
+  m_searchTags: []
 --- !u!1001 &7830097722492350389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17225,6 +18199,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
   m_PrefabInstance: {fileID: 7830097722492350389}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8651201683343132325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487637569526933776, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
+  m_PrefabInstance: {fileID: 7830097722492350389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1180852501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651201683343132325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_1565a284-6131-4d0f-b33a-4d5d43ffd271
+  m_searchTags: []
 --- !u!1001 &7830097722509480355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17290,6 +18283,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976661319680592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097722509480355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1821475401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976661319680592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_65134626-6e08-4a67-abc3-edbced27c63e
+  m_searchTags: []
 --- !u!4 &5272436521173661359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -17352,14 +18364,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9153324475059184444, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
+--- !u!1 &1417855950281156559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9153324475059184444, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
+  m_PrefabInstance: {fileID: 7830097722511459571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1915732186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417855950281156559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_7def0975-b80b-4b0a-938a-0cb81870b8ec
+  m_searchTags: []
 --- !u!4 &5272436521175868415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
@@ -17430,6 +18461,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976660678050198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097722605982309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &967491398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976660678050198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_1334cc16-e059-453a-a197-d743c31aa326
+  m_searchTags: []
 --- !u!4 &5272436521337206121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -17504,11 +18554,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+--- !u!1 &503286628234820310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7662330375527341448, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097722611722078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1257776729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503286628234820310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_33c15488-5766-4ddf-8804-dd9e614fd63f
+  m_searchTags: []
 --- !u!4 &5272436521339846738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
   m_PrefabInstance: {fileID: 7830097722611722078}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8426377133528998165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1754883500871616075, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097722611722078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1391847248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426377133528998165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_8a8ad638-1478-44e8-8a3b-0d58dd260c52
+  m_searchTags: []
 --- !u!1001 &7830097722624920287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17574,6 +18662,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
+--- !u!1 &2052781148093567682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8130943425875482653, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
+  m_PrefabInstance: {fileID: 7830097722624920287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &659727308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052781148093567682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_b285e9c0-525c-4577-85d4-82902a987a25
+  m_searchTags: []
 --- !u!4 &5272436521322458579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
@@ -17649,6 +18756,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097722662140906}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401754454252152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097722662140906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &266195705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401754454252152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_554d307e-9d3c-492e-a04c-ac0a9cdd863d
+  m_searchTags: []
 --- !u!1001 &7830097722673250948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17719,6 +18845,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
   m_PrefabInstance: {fileID: 7830097722673250948}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8526673575010013518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1945216475722044362, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
+  m_PrefabInstance: {fileID: 7830097722673250948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1619044402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526673575010013518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_386af8ec-5fd5-42cf-bb7a-c55644ff6131
+  m_searchTags: []
 --- !u!1001 &7830097722680594847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17789,6 +18934,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7754511859174767639, guid: be4e922ef65bf414d94da7e6c5302932, type: 3}
   m_PrefabInstance: {fileID: 7830097722680594847}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5182144156936730975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3116689692656707776, guid: be4e922ef65bf414d94da7e6c5302932, type: 3}
+  m_PrefabInstance: {fileID: 7830097722680594847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &697227525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5182144156936730975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a5d235b7-dd77-47e6-9676-89ecd9d4ecf7
+  m_searchTags: []
 --- !u!1001 &7830097722686770462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17854,6 +19018,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976660624662253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097722686770462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1596537086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976660624662253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_8cee385c-321f-4520-a445-bc01d173641d
+  m_searchTags: []
 --- !u!4 &5272436521399020050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -17943,6 +19126,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8825177036992826668, guid: 66505a1a31f341b40b3316f56899d49d, type: 3}
+--- !u!114 &2096200922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947771873459350267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_7ed00d5e-87f5-4550-bec2-941a0f80f7d2
+  m_searchTags: []
 --- !u!4 &7719346893738668097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 66505a1a31f341b40b3316f56899d49d, type: 3}
@@ -18025,6 +19222,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b955e9dab1871a4ab83095dcb219869, type: 3}
+--- !u!1 &719764228324761490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7302311523428597263, guid: 7b955e9dab1871a4ab83095dcb219869, type: 3}
+  m_PrefabInstance: {fileID: 7830097722704617885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &517344503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719764228324761490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_b401f356-fc6d-44dc-9076-b5ca31873222
+  m_searchTags: []
 --- !u!4 &6883537158942357774 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3687644317231519891, guid: 7b955e9dab1871a4ab83095dcb219869, type: 3}
@@ -18095,6 +19311,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976660575656189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097722710215438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &780267010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976660575656189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_faade407-6d03-4cc1-b047-506ee3f42830
+  m_searchTags: []
 --- !u!4 &5272436521371380738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -18165,6 +19400,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
+--- !u!1 &1417855951085999094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9153324475059184444, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
+  m_PrefabInstance: {fileID: 7830097722780496074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &193669505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417855951085999094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_bc1a0122-2d86-451b-a72e-b40e2d17edaf
+  m_searchTags: []
 --- !u!4 &5272436521443710918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 9b2a59c1d1f79c74bb068ffbf800c3d4, type: 3}
@@ -18227,15 +19481,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5992777364931341675, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
@@ -18244,6 +19498,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4848336611535647956, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
   m_PrefabInstance: {fileID: 7830097722803351600}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3513382290051606432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 7830097722803351600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5262736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3513382290051606432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_b9abfc98-64ac-456d-8a3a-c956ce2cff8d
+  m_searchTags: []
+--- !u!1 &4217132932562933277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 7830097722803351600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &866685575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217132932562933277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_90e6a51e-94c4-43ae-845d-1208a7d4f822
+  m_searchTags: []
 --- !u!1001 &7830097722803985745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18314,6 +19606,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722803985745}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551541027713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722803985745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1023320854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551541027713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_7892ee4d-8ef0-41a2-aa03-0f7201450dcb
+  m_searchTags: []
 --- !u!1001 &7830097722809714253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18384,6 +19695,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
   m_PrefabInstance: {fileID: 7830097722809714253}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8651201684057796445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487637569526933776, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
+  m_PrefabInstance: {fileID: 7830097722809714253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1853723226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651201684057796445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_56884e15-dc64-47dc-884e-2bd2c2b01b75
+  m_searchTags: []
 --- !u!1001 &7830097722814833073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18454,6 +19784,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
   m_PrefabInstance: {fileID: 7830097722814833073}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5821904845974355633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4350925807373524736, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722814833073}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1502968113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821904845974355633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_9e3b543f-cdfd-426b-83db-fa963a81650a
+  m_searchTags: []
 --- !u!1001 &7830097722835287639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18524,6 +19873,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097722835287639}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401754527260613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097722835287639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &990025170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401754527260613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_4d9c53b8-6030-4c4b-bc35-e67f660d9bbf
+  m_searchTags: []
 --- !u!1001 &7830097722852899685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18594,6 +19962,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722852899685}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551584159157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722852899685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1066067721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551584159157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_f713fdc8-29f6-444b-b096-61e2c31d7f0b
+  m_searchTags: []
 --- !u!1001 &7830097722855256531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18659,6 +20046,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1960d6cb6e689345be63e057d7f0073, type: 3}
+--- !u!1 &4564889711981508946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6049362778704038017, guid: b1960d6cb6e689345be63e057d7f0073, type: 3}
+  m_PrefabInstance: {fileID: 7830097722855256531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1438554482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4564889711981508946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_1e686786-82fc-4e98-a89d-e3adc19f688b
+  m_searchTags: []
 --- !u!4 &5272436521503168223 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b1960d6cb6e689345be63e057d7f0073, type: 3}
@@ -18734,6 +20140,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 96f0f16eb7ee20641b22ec0ff712ce7c, type: 3}
   m_PrefabInstance: {fileID: 7830097722862950742}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8012442401247411701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 260066992109020323, guid: 96f0f16eb7ee20641b22ec0ff712ce7c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722862950742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1410412731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012442401247411701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_3be0b198-da4f-403f-913e-b7b3f2d9713f
+  m_searchTags: []
 --- !u!1001 &7830097722874572406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18743,7 +20168,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -18795,7 +20220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -18804,6 +20229,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722874572406}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551864303782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722874572406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1896683105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551864303782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_178be863-7acb-4b33-9fca-64b3e747122d
+  m_searchTags: []
 --- !u!1001 &7830097722897136761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18874,6 +20318,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097722897136761}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401754220109291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097722897136761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &285614271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401754220109291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_22ea0d23-22c1-453b-ac5d-04b8714e7c5d
+  m_searchTags: []
 --- !u!1001 &7830097722925230936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18883,7 +20346,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -18935,7 +20398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -18944,6 +20407,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097722925230936}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472551914440072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097722925230936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &619346769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472551914440072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_3102f005-c206-4fd8-ac0d-0db0ff237fe1
+  m_searchTags: []
 --- !u!1001 &7830097722925829616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19009,6 +20491,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616609824650888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097722925829616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &32437719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616609824650888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_eff91b2b-b949-4d76-b212-dfd98c365acd
+  m_searchTags: []
 --- !u!4 &5272436521554225916 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -19084,6 +20585,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
   m_PrefabInstance: {fileID: 7830097722968373105}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8651201683616063073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487637569526933776, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
+  m_PrefabInstance: {fileID: 7830097722968373105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &307167643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651201683616063073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_b9d899e6-0813-45ab-ad19-afe9852e771f
+  m_searchTags: []
 --- !u!1001 &7830097722985527097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19149,6 +20669,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616609752370241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097722985527097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1765416288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616609752370241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_18055df3-af66-4686-ab03-c735bbb8365d
+  m_searchTags: []
 --- !u!4 &5272436521632944181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -19228,6 +20767,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 01598705ceeb24c4186589d36dbfc75e, type: 3}
   m_PrefabInstance: {fileID: 7830097723002196812}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8749424132828899512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1568988252824353780, guid: 01598705ceeb24c4186589d36dbfc75e, type: 3}
+  m_PrefabInstance: {fileID: 7830097723002196812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1766258798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8749424132828899512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_8489f05f-92ca-4d40-b7bf-6c200565e71b
+  m_searchTags: []
 --- !u!1001 &7830097723080474369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19237,7 +20795,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1754883500871616075, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_RootOrder
@@ -19289,19 +20847,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7662330375527341448, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+--- !u!1 &503286627900088969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7662330375527341448, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723080474369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &478274143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503286627900088969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_9ea7a4d0-48a6-40f2-a043-d892221e5811
+  m_searchTags: []
 --- !u!4 &5272436521810630669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
   m_PrefabInstance: {fileID: 7830097723080474369}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8426377133729511754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1754883500871616075, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723080474369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &144260334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426377133729511754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_340c6148-b97c-4a89-869b-39865f9f0363
+  m_searchTags: []
 --- !u!1001 &7830097723084632614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19355,7 +20951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4350925807373524736, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
       propertyPath: m_Name
@@ -19363,7 +20959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
@@ -19372,6 +20968,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
   m_PrefabInstance: {fileID: 7830097723084632614}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5821904845725625638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4350925807373524736, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723084632614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1673400729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821904845725625638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_04b4bbf7-c385-4216-ad05-eabcc35c3541
+  m_searchTags: []
 --- !u!1001 &7830097723087645946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19442,6 +21057,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723087645946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401754276269416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723087645946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &75970415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401754276269416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_2b217690-adef-4526-9d84-2e31b4d0050d
+  m_searchTags: []
 --- !u!1001 &7830097723138356520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19512,6 +21146,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723138356520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472549998435320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723138356520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &148684220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472549998435320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_16061303-8658-4daa-adb2-da37843a191d
+  m_searchTags: []
 --- !u!1001 &7830097723142769397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19598,6 +21251,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7046079874195669710, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
   m_PrefabInstance: {fileID: 7830097723142769397}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1320248085128063838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9149184446966505899, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723142769397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7830097722279089159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320248085128063838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_47cb0f6b-42ae-4cef-a827-8c225d54ae1d
+  m_searchTags: []
+--- !u!1 &2626467107357241889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5249241752346540244, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723142769397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1606274053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626467107357241889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_fc68710d-887b-4cf5-a552-c9cbb74df450
+  m_searchTags: []
+--- !u!1 &3012938001971706004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5006317520081744481, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723142769397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &573011877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3012938001971706004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a9657067-87b8-42d7-8215-d42f76f40ea9
+  m_searchTags: []
+--- !u!1 &4470428903039386928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5953827985873719237, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723142769397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1198286882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470428903039386928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_143d0b7d-0175-43ad-aa03-1c4aa70bfea1
+  m_searchTags: []
+--- !u!1 &8525798657795134048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1944324487556405397, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723142769397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &816304142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8525798657795134048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ff81c588-4da4-40f3-aa07-fadc770560f2
+  m_searchTags: []
 --- !u!1001 &7830097723191722702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19668,6 +21416,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723191722702}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401756058248028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723191722702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &136558444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401756058248028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_4eea7dff-0349-4e6d-b8e6-56aed509d431
+  m_searchTags: []
 --- !u!1001 &7830097723212979601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19733,6 +21500,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610044946153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097723212979601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1232655505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610044946153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_016ab9a4-e65d-48f3-a7c9-ad1a56b28f1d
+  m_searchTags: []
 --- !u!4 &5272436519794883229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -19808,6 +21594,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723214174671}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550056965919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723214174671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1866938896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550056965919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a6091f33-156a-4e34-bd8c-964f0791a812
+  m_searchTags: []
 --- !u!1001 &7830097723216177959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19865,15 +21670,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5992777364931341675, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
@@ -19882,6 +21687,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4848336611535647956, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
   m_PrefabInstance: {fileID: 7830097723216177959}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3513382288295492791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 7830097723216177959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &236147687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3513382288295492791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_2c2dcaa5-e01f-453a-a6a6-d442ed7c8813
+  m_searchTags: []
+--- !u!1 &4217132934318984458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 7830097723216177959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1138968208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217132934318984458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_0c175a09-ee78-4ded-8488-3e63ff16dc86
+  m_searchTags: []
 --- !u!1001 &7830097723249034962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19891,7 +21734,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -19943,7 +21786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -19952,6 +21795,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723249034962}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550089205762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723249034962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1726779491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550089205762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d806080b-75fd-41c2-8d62-910ae076c133
+  m_searchTags: []
 --- !u!1001 &7830097723275243825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20025,6 +21887,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976660000416450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097723275243825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2010079783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976660000416450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_616c4ebf-d052-4696-bb73-67d0f1879b53
+  m_searchTags: []
 --- !u!4 &5272436519875221053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -20100,6 +21981,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723298790381}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472549871555901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723298790381}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &397052605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472549871555901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_95cced43-d4fc-4b0c-8567-9496c78eadf2
+  m_searchTags: []
 --- !u!1001 &7830097723303638198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20165,6 +22065,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976659965863749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097723303638198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1836561406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976659965863749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_eb7e284f-6fb9-40a4-ad85-6c9a9371ceb5
+  m_searchTags: []
 --- !u!4 &5272436519834244026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -20240,6 +22159,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723303915314}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401756203290272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723303915314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &805310548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401756203290272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_94f07ee9-30b9-4d32-a3b1-c2e2182d7b75
+  m_searchTags: []
 --- !u!1001 &7830097723353572296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20310,6 +22248,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723353572296}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401756152316506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723353572296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &314301027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401756152316506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_2782c44b-a7b2-4086-8415-94314731cba0
+  m_searchTags: []
 --- !u!1001 &7830097723402884227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20375,6 +22332,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610370940923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097723402884227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1076158353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610370940923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_98f053f3-97b9-494e-833e-320b2957b7dd
+  m_searchTags: []
 --- !u!4 &5272436520003433359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -20450,6 +22426,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
   m_PrefabInstance: {fileID: 7830097723412187463}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8651201682114977879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487637569526933776, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723412187463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1156227953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651201682114977879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_34520b5e-f036-4542-8dfa-9d4700f9c153
+  m_searchTags: []
 --- !u!1001 &7830097723440185716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20523,11 +22518,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2149581562d51154aac785e71277042d, type: 3}
+--- !u!1 &4387568187677257767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5785399708359979347, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723440185716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1560926639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4387568187677257767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d32f7f6c-ec70-460b-afe6-eb86320c4995
+  m_searchTags: []
 --- !u!4 &5272436519970317944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 2149581562d51154aac785e71277042d, type: 3}
   m_PrefabInstance: {fileID: 7830097723440185716}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8038133645151476784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 227211409403010372, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723440185716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &263615094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8038133645151476784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_38ee3e17-72d2-4e07-9fda-df03e6826ede
+  m_searchTags: []
+--- !u!1 &8745581685547318324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1582052441154321728, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723440185716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1317630232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8745581685547318324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_9e078634-faf6-4167-8259-11fb9de46aca
+  m_searchTags: []
 --- !u!1001 &7830097723454697757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20593,6 +22645,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
+--- !u!1 &2993435149751269680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4981202243195439149, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
+  m_PrefabInstance: {fileID: 7830097723454697757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134624247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993435149751269680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_575ad928-4bc0-4ed7-ae69-90a9b1b56770
+  m_searchTags: []
 --- !u!4 &5272436519951619601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
@@ -20668,6 +22739,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723491759276}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550349740668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723491759276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &40537907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550349740668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_1925719e-7ed6-4098-b76e-2becb2a853a0
+  m_searchTags: []
 --- !u!1001 &7830097723496012084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20738,6 +22828,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723496012084}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550337230820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723496012084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &844887734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550337230820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a74d6d9f-d07a-48be-99ec-f75b317d26cc
+  m_searchTags: []
 --- !u!1001 &7830097723497787014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20808,6 +22917,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 951bbddabd7566149a82816676a4b334, type: 3}
   m_PrefabInstance: {fileID: 7830097723497787014}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6439405104325777345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3888652359877982535, guid: 951bbddabd7566149a82816676a4b334, type: 3}
+  m_PrefabInstance: {fileID: 7830097723497787014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &306036314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6439405104325777345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a6721be9-1bc5-4719-8fbc-421ad3e7f186
+  m_searchTags: []
 --- !u!1001 &7830097723502532431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20902,6 +23030,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9069053454949219923, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
   m_PrefabInstance: {fileID: 7830097723502532431}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2243668717380904178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8325190519878824893, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 7830097723502532431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &96916410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243668717380904178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e0affa04-73cc-4616-bf92-91760ffbba16
+  m_searchTags: []
+--- !u!1 &4386092358001090957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5797434155700811458, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 7830097723502532431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769912729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386092358001090957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_3a359b3f-be2f-4e80-bf60-6cbf5c9eae20
+  m_searchTags: []
+--- !u!1 &4795788668072154620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324791249986011827, guid: 7a8c6517b87384344bcc2f6844a80bda, type: 3}
+  m_PrefabInstance: {fileID: 7830097723502532431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &208153516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795788668072154620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_9a6248b3-ba7e-495a-b6d1-c2141a8d61ba
+  m_searchTags: []
 --- !u!1001 &7830097723512725007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20967,6 +23152,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610277352823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097723512725007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2087160499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610277352823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_78ddca0a-9a86-4e27-98bf-d8130fc6de87
+  m_searchTags: []
 --- !u!4 &5272436520027814147 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -21042,6 +23246,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723531362274}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755726225008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723531362274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2033614462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755726225008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ac95c80d-e8ee-4017-a5f2-a80e6784f5ba
+  m_searchTags: []
 --- !u!1001 &7830097723536849669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21119,6 +23342,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
+--- !u!1 &5365373295822016069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2801163038316868928, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
+  m_PrefabInstance: {fileID: 7830097723536849669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1384263341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5365373295822016069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_eeff5b87-0cc6-4a10-89d9-3d193e914395
+  m_searchTags: []
 --- !u!4 &8282999463933804464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2186840960024200373, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
@@ -21133,7 +23375,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -21185,7 +23427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -21194,6 +23436,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723538944875}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550126394811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723538944875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &695092405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550126394811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_430764cd-ee2a-432e-b6dd-b92aeaa2ab1e
+  m_searchTags: []
 --- !u!1001 &7830097723541522940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21251,15 +23512,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5992777364931341675, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
@@ -21268,6 +23529,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4848336611535647956, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
   m_PrefabInstance: {fileID: 7830097723541522940}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3513382288105463404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6658592902524262288, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 7830097723541522940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1781218316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3513382288105463404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e7c8d527-3503-4c48-8c71-87c60aac75b0
+  m_searchTags: []
+--- !u!1 &4217132933972209617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6209439604027303469, guid: 0d839b382bb03fc4da3a066981dd2fb5, type: 3}
+  m_PrefabInstance: {fileID: 7830097723541522940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &387533252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217132933972209617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_9d1844e5-6eca-4c86-9ff4-530d2b7ad8a6
+  m_searchTags: []
 --- !u!1001 &7830097723587985453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21338,6 +23637,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
   m_PrefabInstance: {fileID: 7830097723587985453}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8651201682222557501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487637569526933776, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723587985453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1299448273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651201682222557501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_445c087c-bb3b-44dd-b382-e1393faf924d
+  m_searchTags: []
 --- !u!1001 &7830097723630987215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21347,7 +23665,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -21399,7 +23717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -21408,6 +23726,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723630987215}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550202181919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723630987215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1543442635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550202181919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_44c323d9-44d4-4528-857c-cfe9003304b3
+  m_searchTags: []
 --- !u!1001 &7830097723631267165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21482,6 +23819,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 01598705ceeb24c4186589d36dbfc75e, type: 3}
   m_PrefabInstance: {fileID: 7830097723631267165}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8749424131310212777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1568988252824353780, guid: 01598705ceeb24c4186589d36dbfc75e, type: 3}
+  m_PrefabInstance: {fileID: 7830097723631267165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &303070396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8749424131310212777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_70f3cce0-e914-48c5-b100-c9107f590040
+  m_searchTags: []
 --- !u!1001 &7830097723662249754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21547,6 +23903,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610158302306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097723662249754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &538849979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610158302306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_5ef25a6e-f3ef-41ef-999c-bd171e043cb6
+  m_searchTags: []
 --- !u!4 &5272436520159299606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -21621,11 +23996,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+--- !u!1 &503286629562202184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7662330375527341448, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723666474432}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &88406009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503286629562202184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_02d77cd7-537a-4f5d-ab85-735c6dc293f0
+  m_searchTags: []
 --- !u!4 &5272436520146682572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
   m_PrefabInstance: {fileID: 7830097723666474432}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8426377134210655115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1754883500871616075, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723666474432}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1749514809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426377134210655115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_0d0de8c9-fc1d-4cc1-a606-e898f1f7f44c
+  m_searchTags: []
 --- !u!1001 &7830097723675992280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21703,6 +24116,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 941a1fb42c44e1e41991ad947a8e565a, type: 3}
+--- !u!1 &5004183418109758267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3015289876826844131, guid: 941a1fb42c44e1e41991ad947a8e565a, type: 3}
+  m_PrefabInstance: {fileID: 7830097723675992280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1244204144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5004183418109758267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_c8d41363-0ffb-4e1b-99d2-2e3e2ef16373
+  m_searchTags: []
 --- !u!4 &8937451423536996045 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1198569737487269397, guid: 941a1fb42c44e1e41991ad947a8e565a, type: 3}
@@ -21785,11 +24217,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+--- !u!1 &503286629337758233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7662330375527341448, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723689756561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &225296083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503286629337758233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_1a3502dc-a24d-4869-a27a-e84337db8d65
+  m_searchTags: []
 --- !u!4 &5272436520253423773 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
   m_PrefabInstance: {fileID: 7830097723689756561}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8426377134590321114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1754883500871616075, guid: 38a9e8fe9ed53404081aab886fa5725f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723689756561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &800331681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426377134590321114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_90e83900-82a3-4774-9118-10a9536b5270
+  m_searchTags: []
 --- !u!1001 &7830097723693331435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21799,7 +24269,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -21851,7 +24321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -21860,6 +24330,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723693331435}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550550789435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723693331435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1458898190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550550789435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_80fc1b8b-09ed-4e1c-b2fa-691b7687344f
+  m_searchTags: []
 --- !u!1001 &7830097723693439125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21925,6 +24414,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd033560cdd13d744bcc8d81397f6a57, type: 3}
+--- !u!1 &5706928562175456044 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2565095956326919097, guid: cd033560cdd13d744bcc8d81397f6a57, type: 3}
+  m_PrefabInstance: {fileID: 7830097723693439125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &115830176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5706928562175456044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_6b5f8258-0995-4d12-b4c0-2fda9e8ac278
+  m_searchTags: []
 --- !u!4 &8884214946148240883 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1720667564863280486, guid: cd033560cdd13d744bcc8d81397f6a57, type: 3}
@@ -22021,7 +24529,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -22073,7 +24581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -22082,6 +24590,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723697709408}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550537883568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723697709408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &458460312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550537883568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_3b6d2cf4-842d-4255-9329-39df298e62d3
+  m_searchTags: []
 --- !u!1001 &7830097723706652392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22152,6 +24679,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723706652392}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755532842874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723706652392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &825442711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755532842874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_192dddde-372f-4a4f-9235-7b8b5a8dd1bb
+  m_searchTags: []
 --- !u!1001 &7830097723719550243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22161,7 +24707,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -22213,7 +24759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -22222,6 +24768,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723719550243}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550558149619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723719550243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &289248564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550558149619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a263b47d-b921-4bf6-93c5-0b3668e80e1c
+  m_searchTags: []
 --- !u!1001 &7830097723723773174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22292,6 +24857,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723723773174}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755515983204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723723773174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1964649030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755515983204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_830952f4-af39-4eb1-bef5-f24d02b24571
+  m_searchTags: []
 --- !u!1001 &7830097723725903922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22345,7 +24929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4350925807373524736, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
       propertyPath: m_Name
@@ -22353,7 +24937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
@@ -22362,6 +24946,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
   m_PrefabInstance: {fileID: 7830097723725903922}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5821904847172200242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4350925807373524736, guid: d6d094e832f4d8144ae1657d3964f42c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723725903922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1020506046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821904847172200242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ffa7bce4-cb28-4969-9025-564902e3d791
+  m_searchTags: []
 --- !u!1001 &7830097723727733330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22432,6 +25035,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723727733330}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550583618690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723727733330}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1571161748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550583618690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_8df412d9-ab18-4f87-b5ab-6e8309078180
+  m_searchTags: []
 --- !u!1001 &7830097723780868775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22502,6 +25124,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723780868775}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755472317237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723780868775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2074126731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755472317237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_5aef27d4-de38-443f-9a08-584cb0c5d9b7
+  m_searchTags: []
 --- !u!1001 &7830097723796837459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22567,6 +25208,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976659520620448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097723796837459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1080388240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976659520620448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e701d298-b794-41fd-bfd4-371a7d405a32
+  m_searchTags: []
 --- !u!4 &5272436520280568671 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -22642,6 +25302,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723835113938}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550408933122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723835113938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1854008071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550408933122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_136d6957-885e-415d-b8ba-3a9405bd4541
+  m_searchTags: []
 --- !u!1001 &7830097723847398680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22707,6 +25386,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610480139872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097723847398680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &116108287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610480139872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_18c8c25b-2716-43cc-9498-1ebab8aea596
+  m_searchTags: []
 --- !u!4 &5272436520364225044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -22765,7 +25463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3888652359877982535, guid: 951bbddabd7566149a82816676a4b334, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: 951bbddabd7566149a82816676a4b334, type: 3}
       propertyPath: m_Name
@@ -22773,7 +25471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: 951bbddabd7566149a82816676a4b334, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 951bbddabd7566149a82816676a4b334, type: 3}
@@ -22782,6 +25480,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 951bbddabd7566149a82816676a4b334, type: 3}
   m_PrefabInstance: {fileID: 7830097723849062015}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6439405103771078456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3888652359877982535, guid: 951bbddabd7566149a82816676a4b334, type: 3}
+  m_PrefabInstance: {fileID: 7830097723849062015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &328721292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6439405103771078456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_6370201a-8951-48ba-9b0f-659127be3b14
+  m_searchTags: []
 --- !u!1001 &7830097723853759039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22852,6 +25569,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097723853759039}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755679392685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097723853759039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1318117185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755679392685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_cee7da28-c148-4924-a356-ba5e77a094b8
+  m_searchTags: []
 --- !u!1001 &7830097723865149349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22917,6 +25653,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610495419613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097723865149349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &577257312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610495419613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_71cf88e0-fb7b-4b88-a7cf-982ad3e131c4
+  m_searchTags: []
 --- !u!4 &5272436520346470569 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -23062,6 +25817,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
   m_PrefabInstance: {fileID: 7830097723881936243}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8651201682987711587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487637569526933776, guid: 81451f51dd4d446448f5018cc348612f, type: 3}
+  m_PrefabInstance: {fileID: 7830097723881936243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1501954997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651201682987711587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_00d17908-3e93-4f72-a8c6-6da2dfe1e76c
+  m_searchTags: []
 --- !u!1001 &7830097723900235675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23132,6 +25906,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723900235675}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550469869899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723900235675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &740881906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550469869899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_dd252078-d9e9-4e1d-aa65-e4d609d3ecb9
+  m_searchTags: []
 --- !u!1001 &7830097723920535600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23202,6 +25995,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723920535600}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550491225824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723920535600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1799894227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550491225824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_dd109972-a8c7-48e1-a3f1-01dcf561ab00
+  m_searchTags: []
 --- !u!1001 &7830097723999625169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23211,7 +26023,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -23263,7 +26075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -23272,6 +26084,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097723999625169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550840316161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097723999625169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1941743265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550840316161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a5e67c24-dcab-43dc-94a9-eb94cbd272e9
+  m_searchTags: []
 --- !u!1001 &7830097724000915375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23337,6 +26168,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610901701847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097724000915375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &853682720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610901701847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_a6410e19-c157-4c17-9dc1-698f324f923f
+  m_searchTags: []
 --- !u!4 &5272436520483334307 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -23407,6 +26257,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
+--- !u!1 &2052781146786112466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8130943425875482653, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
+  m_PrefabInstance: {fileID: 7830097724003662799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1342977725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052781146786112466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_b828904e-c1d0-4be3-991a-b34e450e490d
+  m_searchTags: []
 --- !u!4 &5272436520484789443 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: ca38a06db9a7fd94980eb2fe951dd9ab, type: 3}
@@ -23482,6 +26351,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097724031756724}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755220379686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097724031756724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1453059638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755220379686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_fdc2815b-5f50-4037-b14c-f1a8d1b18926
+  m_searchTags: []
 --- !u!1001 &7830097724033459654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23491,7 +26379,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1945216475722044362, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
       propertyPath: m_RootOrder
@@ -23543,7 +26431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
@@ -23552,6 +26440,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
   m_PrefabInstance: {fileID: 7830097724033459654}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8526673575833089548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1945216475722044362, guid: a09d2b72663e05b4b94301c0a317701f, type: 3}
+  m_PrefabInstance: {fileID: 7830097724033459654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1432255896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526673575833089548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d337b7be-b00a-47e1-a0cf-db24f828cc49
+  m_searchTags: []
 --- !u!1001 &7830097724034802911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23622,6 +26529,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097724034802911}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755223557453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097724034802911}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1829173754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755223557453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_c28f6abe-cbf4-4df0-87bd-51c0e9a0f747
+  m_searchTags: []
 --- !u!1001 &7830097724035982766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23687,6 +26613,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610869780182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097724035982766}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2087562104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610869780182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_14c46f7d-9140-45e9-9ede-27ee5155763d
+  m_searchTags: []
 --- !u!4 &5272436520586674850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -23762,6 +26707,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097724060451746}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755181457968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097724060451746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &615350045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755181457968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_bf2441b8-c9a6-4046-9fa9-689f9a994fa7
+  m_searchTags: []
 --- !u!1001 &7830097724079618200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23832,6 +26796,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097724079618200}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550667589192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097724079618200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2040081602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550667589192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_d2acdb11-a985-4bb6-b050-74bfa0a7b4db
+  m_searchTags: []
 --- !u!1001 &7830097724083556613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23841,7 +26824,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -23893,7 +26876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -23902,6 +26885,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097724083556613}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550655295445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097724083556613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &659462886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550655295445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_0116d7da-9395-4da9-899b-170199753ab3
+  m_searchTags: []
 --- !u!1001 &7830097724090431414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23972,6 +26974,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097724090431414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755413304868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097724090431414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &357444471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755413304868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e50c1bc4-f884-439a-809e-2b98d0f978a8
+  m_searchTags: []
 --- !u!1001 &7830097724108412742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23981,7 +27002,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_RootOrder
@@ -24033,7 +27054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994457223109221197, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
@@ -24042,6 +27063,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
   m_PrefabInstance: {fileID: 7830097724108412742}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8948472550697974166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190432697923415760, guid: b413691e021fb334c8cbe120001ae83c, type: 3}
+  m_PrefabInstance: {fileID: 7830097724108412742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &43241463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948472550697974166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_2d6e89db-8730-4207-9218-c37dc611344b
+  m_searchTags: []
 --- !u!1001 &7830097724112425814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24107,6 +27147,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
+--- !u!1 &2993435149336304507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4981202243195439149, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
+  m_PrefabInstance: {fileID: 7830097724112425814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &411817081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993435149336304507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_31248586-b98d-48db-ae76-62d90e050160
+  m_searchTags: []
 --- !u!4 &5272436520644457562 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
@@ -24182,6 +27241,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
   m_PrefabInstance: {fileID: 7830097724141809586}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8756401755364019744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526409542307766674, guid: 66a6bc162f741fa4f9ccd4bd8ee27a5d, type: 3}
+  m_PrefabInstance: {fileID: 7830097724141809586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2111055295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756401755364019744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_f371fd94-bfcb-4006-b4e3-6f8dc205918a
+  m_searchTags: []
 --- !u!1001 &7830097724167637105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24252,6 +27330,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 96f0f16eb7ee20641b22ec0ff712ce7c, type: 3}
   m_PrefabInstance: {fileID: 7830097724167637105}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8012442402628119762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 260066992109020323, guid: 96f0f16eb7ee20641b22ec0ff712ce7c, type: 3}
+  m_PrefabInstance: {fileID: 7830097724167637105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1749021945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012442402628119762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_ec240cf3-aebb-4f93-877e-d1dbb287c0a3
+  m_searchTags: []
 --- !u!1001 &7830097724174892102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24317,6 +27414,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+--- !u!1 &4377976659629125557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794913325224350707, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
+  m_PrefabInstance: {fileID: 7830097724174892102}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1237312750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377976659629125557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e8adc3ed-ddf0-4f64-b194-2099ce22eac3
+  m_searchTags: []
 --- !u!4 &5272436520707824458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: e13149c7c4ef05f40a1683c1066f62b9, type: 3}
@@ -24387,6 +27503,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+--- !u!1 &3415616610671939845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885470259430259576, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
+  m_PrefabInstance: {fileID: 7830097724175624829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1098064815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415616610671939845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_9fa1542b-5798-4c77-99ba-44316bad1fb1
+  m_searchTags: []
 --- !u!4 &5272436520707083633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 1c8cb725f208e2e4da556c46cb7a80fd, type: 3}
@@ -24461,6 +27596,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
+--- !u!1 &2993435149277528612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4981202243195439149, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
+  m_PrefabInstance: {fileID: 7830097724187871753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1279350494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993435149277528612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_9226fa18-ebe7-48df-b928-2a44d53e944e
+  m_searchTags: []
 --- !u!4 &5272436520703225093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: c40f07800840e5b479d97680eb7d367a, type: 3}
@@ -24606,6 +27760,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7754511859174767639, guid: df4ef521ff7d49b4f8dc76c6b0edc3cf, type: 3}
   m_PrefabInstance: {fileID: 7870987021261157116}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1360611969817031594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9212818507302797654, guid: df4ef521ff7d49b4f8dc76c6b0edc3cf, type: 3}
+  m_PrefabInstance: {fileID: 7870987021261157116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1866784455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360611969817031594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_bf659dd1-a72a-44af-849e-da81b060e1f9
+  m_searchTags: []
 --- !u!1001 &7897144388612620967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25375,6 +28548,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7fbf518ba47cc14db06ce1680b6c9dc, type: 3}
+--- !u!1 &2473642234351568711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6015571202270355697, guid: a7fbf518ba47cc14db06ce1680b6c9dc, type: 3}
+  m_PrefabInstance: {fileID: 8155947059351463862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1522129163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2473642234351568711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_8c1a8b5b-89f8-405a-a5d0-7d547878cec0
+  m_searchTags: []
 --- !u!4 &4435508422498429571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5521881310140599605, guid: a7fbf518ba47cc14db06ce1680b6c9dc, type: 3}
@@ -25727,13 +28919,112 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9149184446966505899, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+--- !u!1 &1097942286447861679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9149184446966505899, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 8197891036172615172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7830097722279089161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097942286447861679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_327de549-b83d-4527-9c5b-caece36ac31c
+  m_searchTags: []
 --- !u!4 &1156429113500318922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7046079874195669710, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
   m_PrefabInstance: {fileID: 8197891036172615172}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2550441966502752705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5953827985873719237, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 8197891036172615172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &319692020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2550441966502752705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_16f2ab7e-fb2a-409d-a42b-191ef9eb2481
+  m_searchTags: []
+--- !u!1 &3800687564749540453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5006317520081744481, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 8197891036172615172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &156643067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800687564749540453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_7f1577b5-09d1-43e6-8b20-c5c2b16a5d2b
+  m_searchTags: []
+--- !u!1 &4115674304630146768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5249241752346540244, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 8197891036172615172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &891491734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4115674304630146768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_3b4f6de4-6640-47f4-8987-e062eb048ca5
+  m_searchTags: []
+--- !u!1 &7728003956710434449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1944324487556405397, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
+  m_PrefabInstance: {fileID: 8197891036172615172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &692612058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7728003956710434449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_fe1c1fe0-3e90-463e-996b-f552d97c6b9b
+  m_searchTags: []
 --- !u!1001 &8218329865600939934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26087,6 +29378,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+--- !u!1 &2127305506869030214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8029786973962800547, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+  m_PrefabInstance: {fileID: 8280498639000150245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &288829790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127305506869030214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_1548595a-111d-4a18-b260-d1629f0a6c9d
+  m_searchTags: []
 --- !u!4 &4885662844912187015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3541907226247894626, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
@@ -26643,11 +29953,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2149581562d51154aac785e71277042d, type: 3}
+--- !u!1 &2872842276025061166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5785399708359979347, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 8617563901233675901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1828063479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872842276025061166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_7e4b5a4b-32a0-4851-b1ec-e6766b281ef8
+  m_searchTags: []
 --- !u!4 &5915145807217875313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: 2149581562d51154aac785e71277042d, type: 3}
   m_PrefabInstance: {fileID: 8617563901233675901}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7089555206472057661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1582052441154321728, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 8617563901233675901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2035318527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7089555206472057661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e25ca9d8-3f0e-4b45-83a6-5e5846d9ed55
+  m_searchTags: []
+--- !u!1 &8408373505667818297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 227211409403010372, guid: 2149581562d51154aac785e71277042d, type: 3}
+  m_PrefabInstance: {fileID: 8617563901233675901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &38503752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8408373505667818297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_6e022bd2-e562-456b-a7b5-49ce9cc70bad
+  m_searchTags: []
 --- !u!1001 &8627843077334937751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27837,6 +31204,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+--- !u!1 &1247186966998327250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8029786973962800547, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
+  m_PrefabInstance: {fileID: 9088665669443129969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1813179344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247186966998327250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_504d0beb-46dd-48a9-aa45-d7a25e5271c5
+  m_searchTags: []
 --- !u!4 &5694252655805137939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3541907226247894626, guid: 43c31fe2e99ecc9438e32622bee86faf, type: 3}
