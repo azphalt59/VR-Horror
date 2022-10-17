@@ -10,11 +10,18 @@ public class Lightning : MonoBehaviour
 
 
   
-    public void Lightnin(string loadFloader )
+    public void Lightnin()
     {
         GetComponent<Animator>().SetBool("Isactive", true);
+  
+    }
+
+    public void changeLight(string loadFloader)
+    {
+        Debug.Log("Change");
         GameObject.FindObjectOfType<LSS_FrontEnd>().Load(loadFloader);
     }
+
     public void OnFinish()
     {
         GetComponent<Animator>().SetBool("Isactive", false);
