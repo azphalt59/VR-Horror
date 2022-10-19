@@ -5,21 +5,31 @@ using UnityEngine;
 public class SpectralItem : MonoBehaviour
 {
     public int itemIndex;
-    private void Start()
-    {
-        for(int i = 0; i<Main_Manager.Instance.QuestItems.Count; i++)
-        {
-            if (Main_Manager.Instance.QuestItems[i].name == this.gameObject.name)
-            {
-                itemIndex = i;
-            }
-        }
-    }
+    public bool DestroyItem = false;
+    public bool NeedKey = false;
+    
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Hand")
+        if(other.tag == "Key")
         {
-            Main_Manager.Instance.QuestUpdate(itemIndex);
+            NeedKey = false;
         }
+        if (other.tag == "Player")
+        {
+            if(NeedKey == false)
+            {
+                Debug.Log("Hit spectral item");
+                Main_Manager.Instance.QuestUpdate(itemIndex);
+                if(DestroyItem == true)
+            {
+                Destroy(this.gameObject);
+            }
+            }
+           
+            
+        }
+        
     }
+
+
 }

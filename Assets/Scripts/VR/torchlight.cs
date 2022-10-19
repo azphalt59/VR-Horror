@@ -21,6 +21,8 @@ public class torchlight : MonoBehaviour
     [SerializeField]
     private int currLoop = 0;
     private float SpeedMultiplier = 1f;
+    public bool firstGrab = false;
+    private bool cantfirstgrab = false;
     // Start is called before the first frame update
 
     
@@ -32,6 +34,10 @@ public class torchlight : MonoBehaviour
     public void Grab()
     {
         isGrab = true;
+        if(cantfirstgrab == false)
+        {
+            firstGrab = true;
+        }
     }
     public void Throw()
     {
@@ -45,9 +51,9 @@ public class torchlight : MonoBehaviour
     {
         inRealWorld = false;
     }
-    public void UnlockDoors()
+    public void UnlockDoors(int angle)
     {
-        Main_Manager.Instance.ActiveDoor();
+        Main_Manager.Instance.ActiveDoor(angle);
     }
     private void PerformLight(InputAction.CallbackContext obj)
     {
@@ -87,6 +93,15 @@ public class torchlight : MonoBehaviour
         if(inRealWorld == false)
         {
             LowerAndUperIntensity();
+        }
+        if(firstGrab == true)
+        {
+            cantfirstgrab = true;
+            Main_Manager.Instance.ActiveDoor(20);
+            Main_Manager.Instance.QuestUpdate(1);
+            Main_Manager.Instance.DesactivePreviousSteQuest(0);
+            Main_Manager.Instance.QuestUpdate(2);
+            firstGrab = false;
         }
     }
     public void LowerAndUperIntensity()

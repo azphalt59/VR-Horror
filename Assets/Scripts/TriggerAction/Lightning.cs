@@ -18,7 +18,7 @@ public class Lightning : MonoBehaviour
 
     public void changeLight(string loadFloader)
     {
-        Debug.Log("Change");
+        //Debug.Log("Change");
         GameObject.FindObjectOfType<LSS_FrontEnd>().Load(loadFloader);
     }
 
