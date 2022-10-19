@@ -2141,6 +2141,10 @@ Transform:
   - {fileID: 8220121085893831540}
   - {fileID: 6478453071243819877}
   - {fileID: 7830097722269770101}
+  - {fileID: 6107782555848761507}
+  - {fileID: 8078993209132480693}
+  - {fileID: 550852743182911575}
+  - {fileID: 8793854626418183032}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2577,6 +2581,7 @@ Transform:
   - {fileID: 8559559722881733821}
   - {fileID: 2820163269190267549}
   - {fileID: 418983759482215781}
+  - {fileID: 2240324621063401300}
   m_Father: {fileID: 6478453071243819877}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3057,7 +3062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_6219621e-8124-4556-9d76-58613eb7933e
+  m_uniqueId: Environment_a220bac7-28bb-44b6-a7b1-4b9e37d08525
   m_searchTags: []
 --- !u!4 &2666664295863947401 stripped
 Transform:
@@ -4586,7 +4591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5e206e42-4fba-4548-89a7-77f2e7cddcba
+  m_uniqueId: Environment_865c4b86-2ca8-4c5e-972c-6fe3bfd031a0
   m_searchTags: []
 --- !u!4 &2448612596617075765 stripped
 Transform:
@@ -4610,7 +4615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_09959ca3-1e4d-4c07-833e-886466a7bd63
+  m_uniqueId: Environment_d7acb41c-8d8a-4f2f-832a-1c94e2e091f7
   m_searchTags: []
 --- !u!1001 &323645822927566315
 PrefabInstance:
@@ -5126,7 +5131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_59ff6f8f-97b8-4513-bc1c-ff34d7c12b28
+  m_uniqueId: Environment_d7e4e8d6-2b5c-46e6-adb1-70051b61e47e
   m_searchTags: []
 --- !u!4 &2578558179814733473 stripped
 Transform:
@@ -5150,7 +5155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e817f6fe-cc58-4197-aa7c-d2cbffdfeeb9
+  m_uniqueId: Environment_d6cec2db-ab59-4664-a353-b79afb06725d
   m_searchTags: []
 --- !u!1001 &453769497053559365
 PrefabInstance:
@@ -5366,7 +5371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_c7db36ad-9247-486a-b0a0-b53fee420d7b
+  m_uniqueId: Environment_4e05ff6f-94bb-41bc-bd16-de79bcb568a6
   m_searchTags: []
 --- !u!4 &2543438668442463227 stripped
 Transform:
@@ -5599,7 +5604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f3de1856-5404-4ab8-92e7-84a6d7718868
+  m_uniqueId: Environment_fa90d00d-301b-41ef-add5-76b522519dfc
   m_searchTags: []
 --- !u!4 &2509168311958156043 stripped
 Transform:
@@ -5833,7 +5838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f6c0cef0-2b73-4a6d-8f7e-afc3adfec643
+  m_uniqueId: Environment_12748274-9804-480f-a2e4-a8d1ae690cf5
   m_searchTags: []
 --- !u!1001 &629501742463511592
 PrefabInstance:
@@ -6287,7 +6292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7e4d9193-3551-43ca-af92-45400b2c8096
+  m_uniqueId: Environment_22c5e088-1d26-4bd1-9f2e-c106fb9b75a1
   m_searchTags: []
 --- !u!4 &3233210180558962244 stripped
 Transform:
@@ -6450,7 +6455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_57143082-4470-43b7-a813-27e0307232d5
+  m_uniqueId: Environment_6675189e-3618-48e9-ae08-65692aa9508c
   m_searchTags: []
 --- !u!4 &3183250579995162251 stripped
 Transform:
@@ -6752,6 +6757,80 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3432602025122847110, guid: 82f5aebef9c449345ba1925e840811ab, type: 3}
   m_PrefabInstance: {fileID: 706443134919432123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &713664171247133496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7830097722408519422}
+    m_Modifications:
+    - target: {fileID: 2037503326189295658, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_Name
+      value: PR_Painting_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.1314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.343
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.064
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.086
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000029504295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+--- !u!4 &6107782555848761507 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+  m_PrefabInstance: {fileID: 713664171247133496}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &730224061627539664
 PrefabInstance:
@@ -7210,7 +7289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f26261fc-1102-4aaa-ba1b-8dc5cbbe219a
+  m_uniqueId: Environment_9bf1ec3e-1c7d-4c07-8385-5b3c8eac7b32
   m_searchTags: []
 --- !u!1001 &749199793156597947
 PrefabInstance:
@@ -7299,7 +7378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_c1a46cca-c427-40c4-9f24-f2d29baa93f7
+  m_uniqueId: Environment_c7c54526-9d07-470a-aafd-e8ed598e06a4
   m_searchTags: []
 --- !u!1001 &775651947692807388
 PrefabInstance:
@@ -7891,7 +7970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f51726ab-dfc4-43e5-87ff-9a7905e031cc
+  m_uniqueId: Environment_75722ac4-ef91-40af-bb0c-c0db09707ea3
   m_searchTags: []
 --- !u!4 &3015808676041597489 stripped
 Transform:
@@ -8338,7 +8417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_2821b6e2-0eb9-4294-a700-9be5bc020374
+  m_uniqueId: Environment_abf7d6e3-6235-4fe5-8e9a-76c3147fba42
   m_searchTags: []
 --- !u!4 &2927715707935704283 stripped
 Transform:
@@ -8497,7 +8576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_698d1045-321d-4811-bc7a-24eb1a583cb4
+  m_uniqueId: Environment_f49b05de-c8e9-4a6e-89d1-4df8452845bc
   m_searchTags: []
 --- !u!4 &2889942351970465850 stripped
 Transform:
@@ -8743,7 +8822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_50783b4b-8ba9-4163-993c-b1674a1093ae
+  m_uniqueId: Environment_fa81bee5-2e86-4b7c-ae83-6236ae9c5bea
   m_searchTags: []
 --- !u!1001 &1015270108116662588
 PrefabInstance:
@@ -8901,7 +8980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_2179af2d-8855-43f6-a017-eef1b852448a
+  m_uniqueId: Environment_2865a02b-2631-486e-a1c4-3f382297684b
   m_searchTags: []
 --- !u!4 &3142781110704606786 stripped
 Transform:
@@ -9773,7 +9852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_3cf8ae30-d59b-4c12-9509-3e05042f778f
+  m_uniqueId: Environment_aa0ac58c-617a-4bd4-86ac-3a4da5eaca2f
   m_searchTags: []
 --- !u!1001 &1253299311047509388
 PrefabInstance:
@@ -10150,7 +10229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7c1af606-ed86-40f6-8ca2-9af6566106cb
+  m_uniqueId: Environment_a3bad6c8-e26e-4dae-ad45-459280550745
   m_searchTags: []
 --- !u!1001 &1277321148072045992
 PrefabInstance:
@@ -10461,7 +10540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_90f6d349-0351-421c-ab03-b4002c0d48ca
+  m_uniqueId: Environment_fed4a5f1-a07e-4ca5-af64-791ed9c4fe86
   m_searchTags: []
 --- !u!1001 &1291365085669451061
 PrefabInstance:
@@ -10974,7 +11053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_18d1ecac-b5bb-4d81-890e-1ae943d4da30
+  m_uniqueId: Environment_8df17fa9-4d73-4771-923f-221236d9e228
   m_searchTags: []
 --- !u!1001 &1446783525833774047
 PrefabInstance:
@@ -11071,7 +11150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a792d723-8b05-4909-b145-6ba4b0f4bbaa
+  m_uniqueId: Environment_fe3d0af9-4602-465f-bc0e-a47fa08b49e6
   m_searchTags: []
 --- !u!1001 &1467590804180134998
 PrefabInstance:
@@ -11798,7 +11877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_0f1aeb4e-8542-468e-ac4b-082a7c76dc4e
+  m_uniqueId: Environment_5aaffc5c-3374-4cec-b734-ff011da0e806
   m_searchTags: []
 --- !u!1001 &1712598607161933588
 PrefabInstance:
@@ -11870,20 +11949,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6015571202270355697, guid: a7fbf518ba47cc14db06ce1680b6c9dc, type: 3}
   m_PrefabInstance: {fileID: 1712598607161933588}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7830097722279089160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4953895264362684389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e737d657-f742-4fda-8726-6916120fcb79
-  m_searchTags: []
 --- !u!114 &4035963453202046359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11897,6 +11962,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_c066925f-3cb6-448b-9be3-c4ed58768dc6
+  m_searchTags: []
+--- !u!114 &7830097722279089160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953895264362684389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_e737d657-f742-4fda-8726-6916120fcb79
   m_searchTags: []
 --- !u!4 &6585941161057956385 stripped
 Transform:
@@ -12204,7 +12283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4b05ef90-f742-44c8-b4a1-1c3b7882fa86
+  m_uniqueId: Environment_b9281d78-593a-4d13-8aa9-057227ff35c9
   m_searchTags: []
 --- !u!1001 &1791864987487909465
 PrefabInstance:
@@ -12498,7 +12577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1d9f23b0-e228-4f5e-b4c5-fcabff58eafe
+  m_uniqueId: Environment_fd6fa335-c6a3-449d-afd8-02bbd511a1ee
   m_searchTags: []
 --- !u!4 &4575923840514118442 stripped
 Transform:
@@ -12907,7 +12986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_36882518-abd4-4129-b794-1f72bf8bdce6
+  m_uniqueId: Environment_833673aa-ddc2-40b9-ba59-505c2287cd12
   m_searchTags: []
 --- !u!4 &4495257558226212909 stripped
 Transform:
@@ -13066,7 +13145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_233671ea-a3f5-4284-945a-ae750b450c15
+  m_uniqueId: Environment_af4e0de2-1d93-4be6-986a-8be5acd00338
   m_searchTags: []
 --- !u!4 &4152144695215344744 stripped
 Transform:
@@ -13332,7 +13411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f1d725fe-a3d4-486b-8fc1-aa4232fb6fd7
+  m_uniqueId: Environment_0ba09d0b-30ac-4c50-81e0-3ef579870165
   m_searchTags: []
 --- !u!4 &4167933776334492633 stripped
 Transform:
@@ -13952,7 +14031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_60574414-ce24-4d9a-b7d4-206b1bf78c25
+  m_uniqueId: Environment_bf955caa-d049-479f-aae2-18f300e97a2a
   m_searchTags: []
 --- !u!4 &4101184316094041683 stripped
 Transform:
@@ -14414,7 +14493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_69a17bbe-1d0e-4ad1-b0a0-5fdfcab0d84e
+  m_uniqueId: Environment_2ae2f4b0-4d81-4e5c-9edd-c018268a6818
   m_searchTags: []
 --- !u!4 &4295345502427767839 stripped
 Transform:
@@ -14792,7 +14871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_0c9ccccb-7328-4804-b1b0-51b51702f67c
+  m_uniqueId: Environment_8fe3539e-a195-4248-98a2-afb2b431d26f
   m_searchTags: []
 --- !u!1001 &2232018663150031126
 PrefabInstance:
@@ -14951,7 +15030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_120a049b-cb85-4d70-ba08-fef9c9cbb1b9
+  m_uniqueId: Environment_cae8dfed-14e1-48b3-a436-c39f9eeb7656
   m_searchTags: []
 --- !u!1001 &2257387960412498484
 PrefabInstance:
@@ -15414,7 +15493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4aa851f7-3b90-44b6-902a-7e91439c0284
+  m_uniqueId: Environment_4ebeae2c-64fe-4f81-bff0-66edf20f74ba
   m_searchTags: []
 --- !u!1 &8992318857706307773 stripped
 GameObject:
@@ -15433,7 +15512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_65302741-d010-43ac-afa0-4188b4ffd785
+  m_uniqueId: Environment_7de342f2-7461-4e35-abf5-31cb9ff1e5fc
   m_searchTags: []
 --- !u!1001 &2451950161077600028
 PrefabInstance:
@@ -15596,7 +15675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_98c1ea11-00ee-4778-aaee-c7e1ea59e26c
+  m_uniqueId: Environment_25a81612-91bf-4ccc-9278-40a7dbbbe962
   m_searchTags: []
 --- !u!1001 &2469493626496930256
 PrefabInstance:
@@ -15763,7 +15842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1760a3d2-1f20-4136-affc-910cb68ec06a
+  m_uniqueId: Environment_a7fb481d-b49e-40ed-b323-4ca43fb23d92
   m_searchTags: []
 --- !u!1 &3985206706852935818 stripped
 GameObject:
@@ -15782,7 +15861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_83379507-b92a-4ecf-aa04-46281bbeeeb1
+  m_uniqueId: Environment_4db15d5c-30ce-4ae5-9d45-9c743db5d0bb
   m_searchTags: []
 --- !u!1 &8282971094978278553 stripped
 GameObject:
@@ -15801,7 +15880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_47c85acd-8b40-4076-88d0-eed37c3d5fae
+  m_uniqueId: Environment_1cd03295-c18b-4a86-9a7a-0fd510f6901d
   m_searchTags: []
 --- !u!1001 &2503237150368985294
 PrefabInstance:
@@ -16067,7 +16146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_6458daa4-299a-4ea7-8bc1-f1752bcd77cf
+  m_uniqueId: Environment_98364e77-04c1-4cd6-b66e-125429068e7c
   m_searchTags: []
 --- !u!1001 &2551199755967056379
 PrefabInstance:
@@ -16218,7 +16297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_6b62c66d-0147-4f9d-9bc1-e314f2a2b5aa
+  m_uniqueId: Environment_3ab5d9c3-06f2-4690-994f-6e481582acc3
   m_searchTags: []
 --- !u!1001 &2555301082175286682
 PrefabInstance:
@@ -16451,7 +16530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_3a91d8ba-7ddb-426e-91ee-abbede657a85
+  m_uniqueId: Environment_43b846f2-8290-46ea-919c-bad3ee891923
   m_searchTags: []
 --- !u!1001 &2564149358539229227
 PrefabInstance:
@@ -16548,7 +16627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1ec718b8-e80f-4f59-97fa-829812469a8a
+  m_uniqueId: Environment_def270c3-7a75-44cb-ae33-ef06265b9a37
   m_searchTags: []
 --- !u!1 &3918452809339254123 stripped
 GameObject:
@@ -16567,7 +16646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_19aedc84-41e7-4e21-a0e3-68442842a9aa
+  m_uniqueId: Environment_1cde3b84-1d5b-47c1-8298-2a66e055759c
   m_searchTags: []
 --- !u!1 &8348668894947785080 stripped
 GameObject:
@@ -16586,7 +16665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_744c770d-e545-4b5e-9912-e7162efa8965
+  m_uniqueId: Environment_91033d17-1a38-4723-955c-8688088f58bd
   m_searchTags: []
 --- !u!1001 &2569838801853243915
 PrefabInstance:
@@ -17415,7 +17494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_41253529-38a5-4e3f-8e16-1ffc4d2dc72f
+  m_uniqueId: Environment_f2ce4b28-7696-4bd7-8fd9-08f50759103a
   m_searchTags: []
 --- !u!1 &5491297194316451592 stripped
 GameObject:
@@ -17434,7 +17513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b517ba98-05e0-4be9-94a9-521993ffc38a
+  m_uniqueId: Environment_c25ae6ba-fbaa-4e1d-acaa-ceedd6132b86
   m_searchTags: []
 --- !u!1001 &2785453257841133695
 PrefabInstance:
@@ -17671,7 +17750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5dceff5d-549e-4e0c-89a4-ca6d324b13cf
+  m_uniqueId: Environment_ccda213f-fa20-4efe-b638-4087079350ab
   m_searchTags: []
 --- !u!1001 &2801850984539187277
 PrefabInstance:
@@ -17746,6 +17825,80 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8015243152367278896, guid: ab5eedfac444c2b4d9f10c39e0146e96, type: 3}
   m_PrefabInstance: {fileID: 2801850984539187277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2823279946904783075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7830097722408519422}
+    m_Modifications:
+    - target: {fileID: 2037503326189295658, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_Name
+      value: PR_Painting_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3359
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3359
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3359
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.238
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.8847
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70723504
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7069785
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.979
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+--- !u!4 &8793854626418183032 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6711562013902537627, guid: 9305981aedc0160449fae3c58cf16949, type: 3}
+  m_PrefabInstance: {fileID: 2823279946904783075}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2838322713958133988
 PrefabInstance:
@@ -17982,7 +18135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_04c2ae00-c6cc-44b0-a873-12dd298c8364
+  m_uniqueId: Environment_964c7f02-563a-444b-b2f5-895a924d5d43
   m_searchTags: []
 --- !u!1001 &2871953367134359867
 PrefabInstance:
@@ -18133,7 +18286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_18969d32-8f22-4cea-bf88-9464d7635e2b
+  m_uniqueId: Environment_9f81b04e-c17f-457c-9dbc-76dc1edf709b
   m_searchTags: []
 --- !u!1001 &2908320639365829441
 PrefabInstance:
@@ -18942,7 +19095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_80984b15-c2a5-4ba3-8208-659445528843
+  m_uniqueId: Environment_b90d9d85-3278-4e19-a358-32297e72dc63
   m_searchTags: []
 --- !u!1001 &3118804733389351357
 PrefabInstance:
@@ -19031,7 +19184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e3ed3608-4b7d-4133-ad53-943a72b02246
+  m_uniqueId: Environment_0e4dafa7-2c43-4fc7-8642-dcee24ad91ce
   m_searchTags: []
 --- !u!1001 &3134816177345791769
 PrefabInstance:
@@ -19884,6 +20037,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2186840960024200373, guid: 5e195db48af275c428a0accf097bfacd, type: 3}
   m_PrefabInstance: {fileID: 3251272142691413538}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3258947600334256942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7830097722408519422}
+    m_Modifications:
+    - target: {fileID: 2037503326189295658, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_Name
+      value: PR_Painting_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1642
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.894
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.072
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000028354134
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08666339
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99623764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000024665457
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -9.943
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+--- !u!4 &8078993209132480693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+  m_PrefabInstance: {fileID: 3258947600334256942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3275853189193227663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20045,7 +20264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_46edb294-425a-4ecf-a54e-6c9d1c08332d
+  m_uniqueId: Environment_66e08939-94ad-46b7-811f-75c0772e44a7
   m_searchTags: []
 --- !u!1001 &3289841839121682962
 PrefabInstance:
@@ -20157,7 +20376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b6099b0f-461b-4f0f-a4f6-3c57a05558a3
+  m_uniqueId: Environment_13d22c97-77f9-4777-8415-d2201ceb6dce
   m_searchTags: []
 --- !u!4 &5507737317477355740 stripped
 Transform:
@@ -20181,7 +20400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1f30a099-2a2e-4506-a083-42acecb0d032
+  m_uniqueId: Environment_6b441b68-2975-42ff-9ee5-53d6547b70c0
   m_searchTags: []
 --- !u!1 &7313511779686116038 stripped
 GameObject:
@@ -20200,7 +20419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f26ad529-52be-4ef5-b5fe-213fda0f756b
+  m_uniqueId: Environment_6d69b5ef-e93b-4efe-b41b-6ba10a26dafe
   m_searchTags: []
 --- !u!1 &7556440916821123187 stripped
 GameObject:
@@ -20219,7 +20438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_27be6c3f-3c90-4d8a-8a89-760a19d236f1
+  m_uniqueId: Environment_6186b167-ed80-443a-b838-721734edee20
   m_searchTags: []
 --- !u!1 &9153534059565587927 stripped
 GameObject:
@@ -20238,7 +20457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_274cdb60-1050-48fc-ac7b-4775da1dbb3b
+  m_uniqueId: Environment_10a5c38b-ba9d-418c-9f08-dfb9d4465be0
   m_searchTags: []
 --- !u!1001 &3296730433330727028
 PrefabInstance:
@@ -20327,7 +20546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_51c3569b-4598-4c6a-af31-029199b7b55d
+  m_uniqueId: Environment_1bcf74a7-4a7d-43a2-9114-701e1e08a9bd
   m_searchTags: []
 --- !u!1001 &3341537643407972844
 PrefabInstance:
@@ -20416,7 +20635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_ca33f4c0-d624-4806-be7c-b0300d662919
+  m_uniqueId: Environment_2f9da0d4-390e-4b44-90b5-1da79e7b380d
   m_searchTags: []
 --- !u!1001 &3344367756944818376
 PrefabInstance:
@@ -20505,7 +20724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_91894b5a-e8e0-4b5d-9224-087424766fe8
+  m_uniqueId: Environment_4c490782-1967-4a05-9bd9-c3d910dd717e
   m_searchTags: []
 --- !u!1001 &3347650341466117601
 PrefabInstance:
@@ -21050,7 +21269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_df4259ae-ffbc-40a7-9c1a-f1265c537dbd
+  m_uniqueId: Environment_3785c865-9ad9-41f5-97b7-7e2d953bcfd0
   m_searchTags: []
 --- !u!1001 &3530598085719588606
 PrefabInstance:
@@ -21497,7 +21716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a5cff1d5-e0b0-4b4a-8e52-c875f6fe2c46
+  m_uniqueId: Environment_36627e8f-a667-4182-a168-d0cf4cc6d823
   m_searchTags: []
 --- !u!1001 &3623044594382664986
 PrefabInstance:
@@ -21586,7 +21805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_83166382-93e2-41cf-87bc-e4c1e2c482ba
+  m_uniqueId: Environment_3869714a-651d-4987-8fb2-8b4a67817cec
   m_searchTags: []
 --- !u!1001 &3628998593690853522
 PrefabInstance:
@@ -21675,7 +21894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_62cc2676-6b2c-4440-b881-610d501c6c5c
+  m_uniqueId: Environment_fd78018e-c710-49ec-8590-eb8db21b55e1
   m_searchTags: []
 --- !u!1001 &3678889975063852668
 PrefabInstance:
@@ -21838,7 +22057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1d9fac14-851c-433b-9228-364e5bd2916d
+  m_uniqueId: Environment_095453a8-7691-4c8f-bc52-1aff4fc10499
   m_searchTags: []
 --- !u!1001 &3709374527731104117
 PrefabInstance:
@@ -22000,7 +22219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b2854ade-8017-4af3-a3db-1bb9116c11bf
+  m_uniqueId: Environment_f0a08f6f-b285-4a25-9863-44bc9b5eaa35
   m_searchTags: []
 --- !u!1 &8040156621016862183 stripped
 GameObject:
@@ -22019,7 +22238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f268691a-1500-48e3-a1e4-816b45728c24
+  m_uniqueId: Environment_3080244e-000f-47ec-a371-616ca850a23a
   m_searchTags: []
 --- !u!4 &8121271452701306531 stripped
 Transform:
@@ -22113,7 +22332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_53f50bee-e7b7-4020-9823-b2c16a2cbd1f
+  m_uniqueId: Environment_ab82d09c-f5ae-4ce8-8360-7bb2fb395f3f
   m_searchTags: []
 --- !u!1001 &3794296147991385494
 PrefabInstance:
@@ -22880,7 +23099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_761619d1-beb2-42f9-a77e-dfd4a04de009
+  m_uniqueId: Environment_e391eb3d-500c-4c2f-8801-f73f39d14221
   m_searchTags: []
 --- !u!1001 &3926579432668970251
 PrefabInstance:
@@ -23125,7 +23344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8f76fcd6-25bc-4994-9e90-60702196927c
+  m_uniqueId: Environment_862135bd-aaff-432f-a303-33ac880ab5a0
   m_searchTags: []
 --- !u!1001 &3962958798750802286
 PrefabInstance:
@@ -23579,7 +23798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5cadd525-e8fc-49db-8a7b-1c0f3b375d04
+  m_uniqueId: Environment_63b27a18-f462-4538-824d-a182e2547609
   m_searchTags: []
 --- !u!114 &3623787395065936958
 MonoBehaviour:
@@ -23593,7 +23812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b1c405ec-67c3-42d0-aaaa-02337046c529
+  m_uniqueId: Environment_252f4361-e689-447c-86e2-59d3c093e946
   m_searchTags: []
 --- !u!4 &2091918989822887646 stripped
 Transform:
@@ -24057,7 +24276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_3de5e151-deb1-457e-9211-546229faea40
+  m_uniqueId: Environment_351b5dd1-1883-4d27-8635-377dfbcd77f1
   m_searchTags: []
 --- !u!1001 &4197211562285429495
 PrefabInstance:
@@ -24734,7 +24953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_20841ce6-c1ee-4bcd-9d3c-8f83197b73a0
+  m_uniqueId: Environment_88cfcdcc-402b-482a-883f-cf15846c9b00
   m_searchTags: []
 --- !u!1001 &4370333334709384390
 PrefabInstance:
@@ -24818,7 +25037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e344ac47-c19d-488e-af0c-f7c7c02062a2
+  m_uniqueId: Environment_19df42a4-c8ba-4ebe-8d1e-635a068ce07c
   m_searchTags: []
 --- !u!4 &1812670756886762442 stripped
 Transform:
@@ -25060,7 +25279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8a332c94-8f5f-49c2-bf1b-e7462594275c
+  m_uniqueId: Environment_a639b316-011e-4a00-9036-a1de0cbd5edb
   m_searchTags: []
 --- !u!1001 &4421623167432479599
 PrefabInstance:
@@ -25358,7 +25577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_64629f89-8c4d-4f22-bc79-cd8e323704db
+  m_uniqueId: Environment_02cb135f-e49a-415e-843e-0bb40eeaa146
   m_searchTags: []
 --- !u!4 &1747783702288353525 stripped
 Transform:
@@ -25526,7 +25745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a8b684e2-f751-4d63-b222-c6ec0610da7a
+  m_uniqueId: Environment_f6f4bf26-1920-4294-9d1c-b2d34ced5edc
   m_searchTags: []
 --- !u!1001 &4487146515026477567
 PrefabInstance:
@@ -25906,7 +26125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_fd6010e5-fc29-4a4b-9d50-3cea8c291cb5
+  m_uniqueId: Environment_d59611db-befb-4681-a609-cb58c7427c19
   m_searchTags: []
 --- !u!1 &7538514480983814334 stripped
 GameObject:
@@ -25925,7 +26144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4a134e3d-b747-4122-b78b-0179f7121f20
+  m_uniqueId: Environment_862c9eda-9653-4318-8955-d6b27073736a
   m_searchTags: []
 --- !u!4 &9077764693849662023 stripped
 Transform:
@@ -27549,6 +27768,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2702561580337325836, guid: f3fd5d3a428bbd04a819181f25a6a482, type: 3}
   m_PrefabInstance: {fileID: 4758561486290179491}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4770289780906863823
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4192147389986835988}
+    m_Modifications:
+    - target: {fileID: 2037503326189295658, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_Name
+      value: PR_Painting_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_RootOrder
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15.547584
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15.547584
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.547584
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.899082
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 58.00047
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.1043553
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.62892634
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.021258248
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7769837
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.017207203
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -102.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.134
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+--- !u!4 &2240324621063401300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
+  m_PrefabInstance: {fileID: 4770289780906863823}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4824432576141468476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27631,7 +27924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_aaa7c4c7-1658-42dc-80b6-32725e11e187
+  m_uniqueId: Environment_2e6610c7-b10b-4b21-a50a-25d2e0ff688f
   m_searchTags: []
 --- !u!4 &7454229986512454704 stripped
 Transform:
@@ -27868,7 +28161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4dfde444-ca9c-49b8-8baf-f3ece5555e57
+  m_uniqueId: Environment_26c8cbb5-9ba0-44a6-948f-eb31c4c75f59
   m_searchTags: []
 --- !u!4 &7031555054141730745 stripped
 Transform:
@@ -28853,7 +29146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_133c77d2-bad2-4929-ac48-679dd7bac078
+  m_uniqueId: Environment_f387e709-0e24-4cb4-b842-68f945aa260f
   m_searchTags: []
 --- !u!4 &7113800073473785640 stripped
 Transform:
@@ -29336,7 +29629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1d6ba285-aa89-4fdc-8e38-1f8432973fff
+  m_uniqueId: Environment_1312dc6b-d0d6-41ac-aa7b-95a5e48d0c15
   m_searchTags: []
 --- !u!4 &7823178672811379584 stripped
 Transform:
@@ -29749,7 +30042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d06fedac-5654-4569-93a4-64edec47d726
+  m_uniqueId: Environment_47ded68a-2f43-4a86-a890-cd317c34b5ba
   m_searchTags: []
 --- !u!4 &7800962956162045046 stripped
 Transform:
@@ -30568,7 +30861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a7964f00-98d7-4884-9f23-87e3b868d963
+  m_uniqueId: Environment_c206703d-1898-4f25-8682-57fa0aa2e2b6
   m_searchTags: []
 --- !u!4 &7637893600326771047 stripped
 Transform:
@@ -30731,7 +31024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_49e49ca9-9daa-4d80-938e-7099c84c8118
+  m_uniqueId: Environment_c7371e54-2bf4-40d2-9356-87a97845a302
   m_searchTags: []
 --- !u!4 &7584800545641210805 stripped
 Transform:
@@ -31310,7 +31603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8e0a4143-e7da-44e7-bcb8-c7d2fef0e609
+  m_uniqueId: Environment_3425d8cb-866f-4846-9468-411f85130185
   m_searchTags: []
 --- !u!4 &7723676625693800439 stripped
 Transform:
@@ -31473,7 +31766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1aa5d8e9-ec84-4761-902a-4f936f64c246
+  m_uniqueId: Environment_bb2551ab-e9b6-4f42-9473-58befb847ba3
   m_searchTags: []
 --- !u!4 &7744295472957820428 stripped
 Transform:
@@ -32989,7 +33282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_ddde6ce2-5eca-4495-8f4c-7d504f04b949
+  m_uniqueId: Environment_e3c391bf-dc70-4bad-872b-fb0b392490aa
   m_searchTags: []
 --- !u!4 &8581972978375305583 stripped
 Transform:
@@ -33440,7 +33733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4a598eb7-52db-4c70-b52e-21735f270090
+  m_uniqueId: Environment_ddb450dd-4274-46ad-93f5-22aa8d52e67a
   m_searchTags: []
 --- !u!4 &8512451572429731384 stripped
 Transform:
@@ -34385,7 +34678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_030a3e20-9c9b-4b55-ac07-12f66be3f41e
+  m_uniqueId: Environment_aadf6a5c-9431-46da-841b-d8055554f354
   m_searchTags: []
 --- !u!4 &8276592004999976915 stripped
 Transform:
@@ -35095,7 +35388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d7a4b565-1237-4f48-a15b-28855898cd2a
+  m_uniqueId: Environment_7d3b6bff-9a23-4157-ac3d-54af86a5f6e5
   m_searchTags: []
 --- !u!1 &1076309626156596963 stripped
 GameObject:
@@ -35114,7 +35407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_bee1d964-cf55-4851-b8c3-bdb7a87cb098
+  m_uniqueId: Environment_5cafad7b-c68a-4f3a-aa46-771011c034ff
   m_searchTags: []
 --- !u!4 &1984765793991519258 stripped
 Transform:
@@ -35150,15 +35443,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.607565
+      value: 30.5
       objectReference: {fileID: 0}
     - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.283875
+      value: 36.1
       objectReference: {fileID: 0}
     - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -60.607624
+      value: -78.8
       objectReference: {fileID: 0}
     - target: {fileID: 6711562013902537627, guid: c1e713606abbf154f8a73427c1260936, type: 3}
       propertyPath: m_LocalRotation.w
@@ -35421,7 +35714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4871051d-03d6-4c25-bcb1-d15516f76c63
+  m_uniqueId: Environment_28aaf83b-afec-4975-8c73-0bfad8da3797
   m_searchTags: []
 --- !u!4 &8938998574932725238 stripped
 Transform:
@@ -35634,6 +35927,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005580395655868109, guid: db51546e46ac82841a220710dd5aad9d, type: 3}
   m_PrefabInstance: {fileID: 6511610162441104243}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6521572562527128524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7830097722408519422}
+    m_Modifications:
+    - target: {fileID: 2037503326189295658, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_Name
+      value: PR_Painting_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6291104
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.54038
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.54038
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.172
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.0876
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000028443637
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.035149414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9993821
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00000010003955
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 4.029
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+--- !u!4 &550852743182911575 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6711562013902537627, guid: 8bb7a80ba3d92f14a9b8abb4e7710dfb, type: 3}
+  m_PrefabInstance: {fileID: 6521572562527128524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6521801780502557570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35810,7 +36177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_c1938120-7a0d-467a-afdb-408efbc3d09c
+  m_uniqueId: Environment_b90f8287-9995-4ffa-aec7-b8c3f5770cdd
   m_searchTags: []
 --- !u!4 &2792581271822221840 stripped
 Transform:
@@ -35834,7 +36201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7d62c62b-eb88-4a5c-8dfb-735f89cbe169
+  m_uniqueId: Environment_69815470-b384-4ff7-ab7f-621fd57aa167
   m_searchTags: []
 --- !u!1 &8448460196671913712 stripped
 GameObject:
@@ -35853,7 +36220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_983bfb45-c203-4e6d-abd6-9d99cccb4b4a
+  m_uniqueId: Environment_9c564d32-5ef2-4a27-840a-791f94749b36
   m_searchTags: []
 --- !u!1001 &6566358329051259957
 PrefabInstance:
@@ -36011,7 +36378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7e0c70cb-bdc0-425b-a621-fd1764929a92
+  m_uniqueId: Environment_9b1f0071-bd8a-4dfb-af67-134c850d0798
   m_searchTags: []
 --- !u!4 &9128571472131094607 stripped
 Transform:
@@ -36244,7 +36611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5192e4c0-b4d9-48ff-a188-2c068f9e189a
+  m_uniqueId: Environment_0372764d-1226-458b-8371-cd54d2b84953
   m_searchTags: []
 --- !u!4 &9088656211902054801 stripped
 Transform:
@@ -36491,7 +36858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_07561656-a6a5-451d-9e2e-665a0e9fdd32
+  m_uniqueId: Environment_32d62819-9943-4f18-a200-62f83c93e9ad
   m_searchTags: []
 --- !u!4 &6556146261428998135 stripped
 Transform:
@@ -36580,7 +36947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e3b904f4-04de-46a8-b81e-04ae784b8ee1
+  m_uniqueId: Environment_6b5832fc-eddf-4289-8309-54d803314f84
   m_searchTags: []
 --- !u!4 &8663016871062928689 stripped
 Transform:
@@ -37100,7 +37467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9f24375f-e0f6-43b0-89d7-97d2fa09b1e9
+  m_uniqueId: Environment_fb1d81d5-4501-4e3c-8cf4-6dfad2d15fb7
   m_searchTags: []
 --- !u!4 &8833901236746136741 stripped
 Transform:
@@ -37450,7 +37817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_52e6c0ef-389c-4e09-b26c-3839e9489664
+  m_uniqueId: Environment_014b5023-9cc4-40a4-beed-30dba89870d0
   m_searchTags: []
 --- !u!1001 &6930102121070121186
 PrefabInstance:
@@ -37558,7 +37925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_175c947e-af89-4dff-9eef-7f2ec0d476c6
+  m_uniqueId: Environment_b0f78ab4-4342-4418-8427-eef261f1d5b8
   m_searchTags: []
 --- !u!4 &2159312435965996721 stripped
 Transform:
@@ -37582,7 +37949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4202ccba-e006-4064-ab00-ae642f845822
+  m_uniqueId: Environment_f6a1d3d6-77e0-45b9-8a04-19d69a7ec161
   m_searchTags: []
 --- !u!1 &5622923560523567697 stripped
 GameObject:
@@ -37601,7 +37968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9829a703-7110-4b13-9157-87a9c9b97dfe
+  m_uniqueId: Environment_cdf62edc-a6cd-4815-8ba5-ae5f97e26369
   m_searchTags: []
 --- !u!1001 &6966421340882332763
 PrefabInstance:
@@ -37760,7 +38127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5283bb96-d1db-48d9-930b-ad9e98a5d6b4
+  m_uniqueId: Environment_7f724f21-8656-462f-9079-e4462378b12a
   m_searchTags: []
 --- !u!1001 &6990422951020728819
 PrefabInstance:
@@ -37985,7 +38352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e5b7c4fd-8856-4ab3-9030-ada8e5a91a9c
+  m_uniqueId: Environment_61b769c8-8c70-4a1d-ae94-fa9dd2b75be8
   m_searchTags: []
 --- !u!1001 &7034073634800977970
 PrefabInstance:
@@ -38673,7 +39040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_bcc1f7d5-5f09-4843-ba2f-e3b23b878529
+  m_uniqueId: Environment_a814d870-1478-4056-bf32-e6d038d1fedc
   m_searchTags: []
 --- !u!4 &2212230912821559683 stripped
 Transform:
@@ -38697,7 +39064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_94222a6a-b99b-41df-acb9-89a881a7da32
+  m_uniqueId: Environment_8403c840-b1a6-46db-81a2-65f725cedc94
   m_searchTags: []
 --- !u!1 &5570007557804047715 stripped
 GameObject:
@@ -38716,7 +39083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9ea07cf9-e540-40b1-9806-8f9a3476c8c6
+  m_uniqueId: Environment_71bc0ecf-3bc9-4529-8167-164e59d5613c
   m_searchTags: []
 --- !u!1001 &7168631089884057917
 PrefabInstance:
@@ -38875,7 +39242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b6069db5-b876-4219-8404-049bfc1b27a8
+  m_uniqueId: Environment_cad5965b-8678-43ba-bb8a-43b7e07c80e8
   m_searchTags: []
 --- !u!1001 &7184225829755910202
 PrefabInstance:
@@ -39046,7 +39413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_acdae04c-114e-4175-bd76-24fd678ea718
+  m_uniqueId: Environment_e4ca2026-ea6d-49dd-ad15-58515027a15b
   m_searchTags: []
 --- !u!1001 &7195555948801163814
 PrefabInstance:
@@ -39134,7 +39501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_eb5f6a4c-03a8-468e-b0ef-a1da0934b287
+  m_uniqueId: Environment_150fc2fd-eb2d-4bec-9c1f-5bbf8285d116
   m_searchTags: []
 --- !u!4 &5069555041101276458 stripped
 Transform:
@@ -39158,7 +39525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_fbde40a5-664f-4ce1-928b-a9d67a66ad43
+  m_uniqueId: Environment_be58e2b1-d0b0-4a50-b07c-6bb69ceeed49
   m_searchTags: []
 --- !u!1001 &7218815816197250069
 PrefabInstance:
@@ -39387,7 +39754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_104127be-6996-4a65-bc0d-20325dffcf4b
+  m_uniqueId: Environment_56fd3878-ef2a-4194-8d4d-25dd8305101f
   m_searchTags: []
 --- !u!1001 &7236298026367616154
 PrefabInstance:
@@ -39545,7 +39912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a2024743-f75c-449f-bb1b-518b9b0c86c3
+  m_uniqueId: Environment_09cf54c9-bc86-4581-aa08-40af10abca42
   m_searchTags: []
 --- !u!4 &4752269018469716267 stripped
 Transform:
@@ -39634,7 +40001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_aa5d91f1-b128-4717-830f-fccb5421942f
+  m_uniqueId: Environment_ba31530a-ad95-42fa-b4f6-d834dbe7a091
   m_searchTags: []
 --- !u!4 &4685427357399047486 stripped
 Transform:
@@ -39956,7 +40323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_6019565c-f87a-4f0d-906a-54b0d91a7e32
+  m_uniqueId: Environment_2093b5ad-e68b-4520-931c-c9341ccb4e35
   m_searchTags: []
 --- !u!1001 &7396934885061410747
 PrefabInstance:
@@ -40337,7 +40704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d2039fd6-227b-4f43-9dc4-77b844fa13fc
+  m_uniqueId: Environment_27152ed1-873b-44b0-b425-bfc8defa6a00
   m_searchTags: []
 --- !u!4 &4797737489075707275 stripped
 Transform:
@@ -40431,7 +40798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_174d0d21-6442-48d2-8fad-02f924b2bd9a
+  m_uniqueId: Environment_93ab041a-ddaf-47b1-b6a0-efa8134e88e1
   m_searchTags: []
 --- !u!1001 &7445722328546528125
 PrefabInstance:
@@ -40520,7 +40887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_270b41bd-abd3-4db7-97f0-454924573868
+  m_uniqueId: Environment_ae985c38-3675-42df-8bc1-1abadf956f71
   m_searchTags: []
 --- !u!1001 &7447996389960668775
 PrefabInstance:
@@ -41419,7 +41786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_25d9c27c-3061-4b68-affa-696ba74eaceb
+  m_uniqueId: Environment_7f91c254-27de-42f2-8b7c-c99088710c44
   m_searchTags: []
 --- !u!1 &2427279143502684928 stripped
 GameObject:
@@ -41438,7 +41805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_050d328d-50f3-420d-b393-4de4c341ad2c
+  m_uniqueId: Environment_a2066fd8-1573-4d98-b54e-220fd360113b
   m_searchTags: []
 --- !u!1 &3174020998860892597 stripped
 GameObject:
@@ -41457,7 +41824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e9752e94-3303-4e1a-94dc-cf45b3b7c281
+  m_uniqueId: Environment_308b4a2f-d00b-4281-af3b-5819988c2f5a
   m_searchTags: []
 --- !u!1 &4311738183570871313 stripped
 GameObject:
@@ -41476,7 +41843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5e06dc73-cf1d-438d-bea9-6b99b7b6d053
+  m_uniqueId: Environment_5d504718-6615-46f8-aa1d-ed50f2accbc4
   m_searchTags: []
 --- !u!1 &8326523334033802049 stripped
 GameObject:
@@ -41495,7 +41862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_da9025ad-03c4-4a84-baf8-ca469e181357
+  m_uniqueId: Environment_29c02087-c7ba-4085-9867-a2e89cfeb7b0
   m_searchTags: []
 --- !u!1001 &7673194273716533460
 PrefabInstance:
@@ -41859,7 +42226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_09a09c9f-a621-4562-8c8a-aaeaf75c57ad
+  m_uniqueId: Environment_e7c401be-6932-49eb-97fc-e74b29149124
   m_searchTags: []
 --- !u!4 &5642587014236611686 stripped
 Transform:
@@ -41948,7 +42315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4958077b-1fec-4216-a053-2a1aef95de81
+  m_uniqueId: Environment_74a06809-6406-43a0-8df0-1af1bd547ed7
   m_searchTags: []
 --- !u!4 &5301495768160336983 stripped
 Transform:
@@ -42190,7 +42557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_87e75161-7ecb-4925-871a-ee7aa2bf4496
+  m_uniqueId: Environment_59c91b0a-98ee-4d39-86e1-b2338303f349
   m_searchTags: []
 --- !u!114 &1943376681318931658
 MonoBehaviour:
@@ -42204,7 +42571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_2b2392a8-af47-497a-8605-63d3a61588fe
+  m_uniqueId: Environment_e134dec4-25a1-4771-b514-fd663ed24b9a
   m_searchTags: []
 --- !u!1001 &7830097722129672557
 PrefabInstance:
@@ -42597,7 +42964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_2fda3c38-4bda-488c-abcb-482a471d6df9
+  m_uniqueId: Environment_89361752-e69d-47cd-a5bc-2b6d8e98cb28
   m_searchTags: []
 --- !u!114 &6881857123869612633
 MonoBehaviour:
@@ -42611,7 +42978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a14d7349-9db8-415b-9dfd-1afe31110075
+  m_uniqueId: Environment_efd91fdb-8f1e-406e-9f20-d645f147189e
   m_searchTags: []
 --- !u!4 &5272436520833145628 stripped
 Transform:
@@ -42705,7 +43072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e7839d2f-cf40-4a17-b478-4417347d81e0
+  m_uniqueId: Environment_88e23eb3-c8f1-4713-8b4a-4b757f5b4cfa
   m_searchTags: []
 --- !u!114 &4487414064118845013
 MonoBehaviour:
@@ -42719,7 +43086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_38002d6a-5190-4b42-8455-04ac4dbd2eb3
+  m_uniqueId: Environment_87e55274-110d-4854-9880-0e4ed439e8d0
   m_searchTags: []
 --- !u!1001 &7830097722199597586
 PrefabInstance:
@@ -42996,7 +43363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_76eb62ef-4ec4-44f2-8867-eddb8fe8f9e1
+  m_uniqueId: Environment_8752ae63-f340-4f7d-bef2-adc8343344cb
   m_searchTags: []
 --- !u!114 &3800938732134187655
 MonoBehaviour:
@@ -43010,7 +43377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_132125d7-ada5-4cce-9738-3b9e21a7b08b
+  m_uniqueId: Environment_37b764d3-8426-4f7c-a397-de247b3b8fa7
   m_searchTags: []
 --- !u!4 &5272436520976959007 stripped
 Transform:
@@ -43226,7 +43593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_eefb1602-73d1-48fc-a953-318ffbfd9978
+  m_uniqueId: Environment_b98683d1-f204-4449-9e6b-27f8fb6a4be5
   m_searchTags: []
 --- !u!114 &7518750669248356711
 MonoBehaviour:
@@ -43240,7 +43607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_bffb5bff-caf0-47e3-b83a-5ed873d4f1a9
+  m_uniqueId: Environment_c7871e99-c3cb-48b5-a3bd-d77cb6ed0039
   m_searchTags: []
 --- !u!4 &5272436521026694097 stripped
 Transform:
@@ -43334,7 +43701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4935d7cf-d19d-4c6d-b12c-89a1c74faa7d
+  m_uniqueId: Environment_710d7b41-b86d-43d1-8bbb-ad0a1f32385c
   m_searchTags: []
 --- !u!114 &7659230874747530847
 MonoBehaviour:
@@ -43348,7 +43715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d0c8875e-9d70-42df-9d3e-81df8fdab875
+  m_uniqueId: Environment_e7885e49-1258-49e4-903d-9083af0cb6b6
   m_searchTags: []
 --- !u!1001 &7830097722471917456
 PrefabInstance:
@@ -43540,7 +43907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8b38b29a-fa3d-48aa-afeb-4f5150252095
+  m_uniqueId: Environment_7aa6dbb1-df0d-4d79-a541-cd8ef0a53d30
   m_searchTags: []
 --- !u!114 &6641065801823537873
 MonoBehaviour:
@@ -43554,7 +43921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1565a284-6131-4d0f-b33a-4d5d43ffd271
+  m_uniqueId: Environment_91068b3b-edc6-40a8-96b3-736b53959af7
   m_searchTags: []
 --- !u!1001 &7830097722509480355
 PrefabInstance:
@@ -43951,7 +44318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_525cc280-112f-4248-8021-0164185e4b1e
+  m_uniqueId: Environment_9d3b3087-f043-4bfd-a267-22700157ee72
   m_searchTags: []
 --- !u!114 &2018857459525452042
 MonoBehaviour:
@@ -43965,7 +44332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_33c15488-5766-4ddf-8804-dd9e614fd63f
+  m_uniqueId: Environment_204002c0-b787-47ea-9f0d-f747ad933d2c
   m_searchTags: []
 --- !u!4 &5272436521339846738 stripped
 Transform:
@@ -43989,7 +44356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a43e757e-ad6e-4c7b-a950-5dd50f09b5c0
+  m_uniqueId: Environment_a7f95fca-00ea-430c-b8af-94b6ded6603b
   m_searchTags: []
 --- !u!114 &6861472351386329066
 MonoBehaviour:
@@ -44003,7 +44370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8a8ad638-1478-44e8-8a3b-0d58dd260c52
+  m_uniqueId: Environment_b862bf58-6c7f-428f-8237-7b8361e81ddf
   m_searchTags: []
 --- !u!1001 &7830097722624920287
 PrefabInstance:
@@ -44087,7 +44454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_12520d46-8c85-4284-9efe-d87bf396bdbc
+  m_uniqueId: Environment_e5fdd6f9-d643-4147-b9c0-49d54020ea46
   m_searchTags: []
 --- !u!114 &7616848474624795759
 MonoBehaviour:
@@ -44101,7 +44468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b285e9c0-525c-4577-85d4-82902a987a25
+  m_uniqueId: Environment_9e610b81-ca62-4416-95b0-bb20847252a6
   m_searchTags: []
 --- !u!4 &5272436521322458579 stripped
 Transform:
@@ -44195,7 +44562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_977ec764-0d33-4a8e-903a-df0e0dc13045
+  m_uniqueId: Environment_f018fd05-3b49-45dc-b519-9dae64243f55
   m_searchTags: []
 --- !u!114 &1103097394950511055
 MonoBehaviour:
@@ -44209,7 +44576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_554d307e-9d3c-492e-a04c-ac0a9cdd863d
+  m_uniqueId: Environment_4b2356b7-5b81-4d5a-8261-2740bff084e9
   m_searchTags: []
 --- !u!1001 &7830097722673250948
 PrefabInstance:
@@ -44298,7 +44665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_15f525f3-bf31-4962-8edc-9df25291cc46
+  m_uniqueId: Environment_6eafbda5-9849-4e03-a553-bf9e1a96f9e6
   m_searchTags: []
 --- !u!114 &2038276927291424182
 MonoBehaviour:
@@ -44312,7 +44679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_386af8ec-5fd5-42cf-bb7a-c55644ff6131
+  m_uniqueId: Environment_997307de-5f9e-4702-b45b-53590399572d
   m_searchTags: []
 --- !u!1001 &7830097722680594847
 PrefabInstance:
@@ -44499,7 +44866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_ca39e75a-53ed-4ca0-8015-6902859ed96a
+  m_uniqueId: Environment_36006e50-77c3-43d6-9809-8827b7e160de
   m_searchTags: []
 --- !u!114 &6610130083966542729
 MonoBehaviour:
@@ -44513,7 +44880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8cee385c-321f-4520-a445-bc01d173641d
+  m_uniqueId: Environment_8153549c-2c5d-4056-a092-754e290ef2f6
   m_searchTags: []
 --- !u!4 &5272436521399020050 stripped
 Transform:
@@ -44719,7 +45086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_bfd7ed6d-74bb-40c5-9484-bd963fa3fab0
+  m_uniqueId: Environment_d59c9794-eb8e-4012-9650-aec2ead3a996
   m_searchTags: []
 --- !u!114 &4252659295091218411
 MonoBehaviour:
@@ -44733,7 +45100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_faade407-6d03-4cc1-b047-506ee3f42830
+  m_uniqueId: Environment_359b80d5-b6cf-4b34-9293-02bfad925498
   m_searchTags: []
 --- !u!4 &5272436521371380738 stripped
 Transform:
@@ -44822,7 +45189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_dfd0611e-90d1-449d-9644-1c5423c34041
+  m_uniqueId: Environment_e6c264be-d931-4232-9529-6982d837dc2d
   m_searchTags: []
 --- !u!114 &3413829018665902725
 MonoBehaviour:
@@ -44836,7 +45203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_bc1a0122-2d86-451b-a72e-b40e2d17edaf
+  m_uniqueId: Environment_5afdbe66-84e6-4525-954a-3ea27aae248c
   m_searchTags: []
 --- !u!4 &5272436521443710918 stripped
 Transform:
@@ -45070,7 +45437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_6669e9c9-39c7-4ca3-afed-029c99a445c2
+  m_uniqueId: Environment_4f67049e-7915-4367-9098-d4ff5a8413f8
   m_searchTags: []
 --- !u!114 &42835839680349558
 MonoBehaviour:
@@ -45084,7 +45451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7892ee4d-8ef0-41a2-aa03-0f7201450dcb
+  m_uniqueId: Environment_d57a5103-3a29-47f8-a2f3-65566d20eb02
   m_searchTags: []
 --- !u!1001 &7830097722809714253
 PrefabInstance:
@@ -45173,7 +45540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_930b55e7-5fdc-42dd-ad38-c0a8afaa0bdb
+  m_uniqueId: Environment_10ffc789-0bdb-4ecb-8257-c7102560f67d
   m_searchTags: []
 --- !u!114 &3108311506183172254
 MonoBehaviour:
@@ -45187,7 +45554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_56884e15-dc64-47dc-884e-2bd2c2b01b75
+  m_uniqueId: Environment_c00c912a-1bd8-4747-b1ba-9a81ca7c0bf2
   m_searchTags: []
 --- !u!1001 &7830097722814833073
 PrefabInstance:
@@ -45276,7 +45643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_2fab5658-b6d7-4660-b840-126720646b86
+  m_uniqueId: Environment_52751935-f628-479b-9121-d01ef8e1fd04
   m_searchTags: []
 --- !u!114 &4850800620422265287
 MonoBehaviour:
@@ -45290,7 +45657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9e3b543f-cdfd-426b-83db-fa963a81650a
+  m_uniqueId: Environment_6ac8b830-d730-45d3-9678-dbf71f96afbf
   m_searchTags: []
 --- !u!1001 &7830097722835287639
 PrefabInstance:
@@ -45379,7 +45746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4ecd1aa7-891b-4aa9-9349-6134e263ef4c
+  m_uniqueId: Environment_5da0741c-2240-4344-8fb4-8646a20c7367
   m_searchTags: []
 --- !u!114 &6992041651198329516
 MonoBehaviour:
@@ -45393,7 +45760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4d9c53b8-6030-4c4b-bc35-e67f660d9bbf
+  m_uniqueId: Environment_1b67926a-390c-4c39-ac66-1289a34eb766
   m_searchTags: []
 --- !u!1001 &7830097722852899685
 PrefabInstance:
@@ -45482,7 +45849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f4334c84-80ef-450c-8cdb-308dacb42aea
+  m_uniqueId: Environment_07ccb421-cb2f-482a-bec7-82e8f000334b
   m_searchTags: []
 --- !u!114 &4654933841704775545
 MonoBehaviour:
@@ -45496,7 +45863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f713fdc8-29f6-444b-b096-61e2c31d7f0b
+  m_uniqueId: Environment_d29036ef-a6aa-4717-998d-9776e196a3f4
   m_searchTags: []
 --- !u!1001 &7830097722855256531
 PrefabInstance:
@@ -45894,7 +46261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7ce424dc-0ce9-41b8-9f6d-be921f02b3a2
+  m_uniqueId: Environment_887833c9-7056-4355-8ce0-190e874d588f
   m_searchTags: []
 --- !u!114 &1789678231319665622
 MonoBehaviour:
@@ -45908,7 +46275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_22ea0d23-22c1-453b-ac5d-04b8714e7c5d
+  m_uniqueId: Environment_477d7b65-9c7a-4fd0-90f9-5dd9bfa9f709
   m_searchTags: []
 --- !u!1001 &7830097722925230936
 PrefabInstance:
@@ -46862,7 +47229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f02f5bcc-b73e-479d-92c1-eb098857ee8a
+  m_uniqueId: Environment_df8466d5-7b99-43c6-927c-c2800dfce334
   m_searchTags: []
 --- !u!114 &1067637370103325867
 MonoBehaviour:
@@ -46876,7 +47243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_16061303-8658-4daa-adb2-da37843a191d
+  m_uniqueId: Environment_ce31df82-62d2-4ac1-84f2-75031e7bf119
   m_searchTags: []
 --- !u!1001 &7830097723142769397
 PrefabInstance:
@@ -46981,20 +47348,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9149184446966505899, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
   m_PrefabInstance: {fileID: 7830097723142769397}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7830097722279089159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320248085128063838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1ea8b34c-e74f-460a-af9d-1d2e5f2881f1
-  m_searchTags: []
 --- !u!114 &264648140428043146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47007,7 +47360,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_47cb0f6b-42ae-4cef-a827-8c225d54ae1d
+  m_uniqueId: Environment_12778499-b4f8-4af3-92cc-288a1abe760e
+  m_searchTags: []
+--- !u!114 &7830097722279089159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320248085128063838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Environment_33585c28-6d41-4007-8cf1-d86ab2ae624d
   m_searchTags: []
 --- !u!1 &2626467107357241889 stripped
 GameObject:
@@ -47026,7 +47393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9ddaab11-21dc-48de-b126-4af8fd7411df
+  m_uniqueId: Environment_90be5600-dafb-4b52-b417-b90c9af45dcb
   m_searchTags: []
 --- !u!114 &2983549300659805185
 MonoBehaviour:
@@ -47040,7 +47407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_fc68710d-887b-4cf5-a552-c9cbb74df450
+  m_uniqueId: Environment_cf556b52-8ef2-4cd2-8e4e-4b28e07fc4ed
   m_searchTags: []
 --- !u!1 &3012938001971706004 stripped
 GameObject:
@@ -47059,7 +47426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e3b1a306-7395-4e5a-ab10-8dafcc74bcca
+  m_uniqueId: Environment_07f0e363-c00b-4aa5-b000-a230fed4450a
   m_searchTags: []
 --- !u!114 &4910109075402007090
 MonoBehaviour:
@@ -47073,7 +47440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a9657067-87b8-42d7-8215-d42f76f40ea9
+  m_uniqueId: Environment_a8381bb3-38e6-4024-a040-589d6ead1b5c
   m_searchTags: []
 --- !u!1 &4470428903039386928 stripped
 GameObject:
@@ -47092,7 +47459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9856355f-5b08-4ce9-b46d-d2f705fb3f3d
+  m_uniqueId: Environment_0401f04f-f38e-46b5-8185-3ddaf23c86f0
   m_searchTags: []
 --- !u!114 &8909008951424791121
 MonoBehaviour:
@@ -47106,7 +47473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_143d0b7d-0175-43ad-aa03-1c4aa70bfea1
+  m_uniqueId: Environment_18445e75-efbd-46a2-b811-3fbc3f3f8f67
   m_searchTags: []
 --- !u!1 &8525798657795134048 stripped
 GameObject:
@@ -47125,7 +47492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b3f4280e-2af3-481e-b814-db8e9fb56fed
+  m_uniqueId: Environment_dabc06c6-c045-43b5-925c-9f31697eb43e
   m_searchTags: []
 --- !u!114 &2234663486371032313
 MonoBehaviour:
@@ -47139,7 +47506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_ff81c588-4da4-40f3-aa07-fadc770560f2
+  m_uniqueId: Environment_4682ad16-fb9d-42d9-ba63-b9eaa662efa1
   m_searchTags: []
 --- !u!1001 &7830097723191722702
 PrefabInstance:
@@ -47326,7 +47693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_93064507-9fd3-41dc-a717-46f58f0cd002
+  m_uniqueId: Environment_e14686ee-b147-4b1c-9897-24ebe6125889
   m_searchTags: []
 --- !u!114 &7077681696932767904
 MonoBehaviour:
@@ -47340,7 +47707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_016ab9a4-e65d-48f3-a7c9-ad1a56b28f1d
+  m_uniqueId: Environment_36b6b157-4e5e-475b-a20d-5102a7e11113
   m_searchTags: []
 --- !u!4 &5272436519794883229 stripped
 Transform:
@@ -47434,7 +47801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_c0e527b8-3be4-46ee-80aa-692df368e946
+  m_uniqueId: Environment_5dfd593f-70d4-4df0-839c-e21796b17035
   m_searchTags: []
 --- !u!114 &3305076419973111504
 MonoBehaviour:
@@ -47448,7 +47815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a6091f33-156a-4e34-bd8c-964f0791a812
+  m_uniqueId: Environment_54da1644-5f94-4cf8-af4c-036d95022f67
   m_searchTags: []
 --- !u!1001 &7830097723216177959
 PrefabInstance:
@@ -47783,7 +48150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_bddfa318-3ca8-4cf2-ad42-5ce88d7f67ac
+  m_uniqueId: Environment_dcd89f19-a321-46d6-a64e-c01ab9faef0c
   m_searchTags: []
 --- !u!114 &6211693509681008206
 MonoBehaviour:
@@ -47797,7 +48164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_616c4ebf-d052-4696-bb73-67d0f1879b53
+  m_uniqueId: Environment_cf6bc000-d1ab-4167-9721-887662de5d1c
   m_searchTags: []
 --- !u!4 &5272436519875221053 stripped
 Transform:
@@ -47891,7 +48258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1839e2df-56ba-450e-a2af-2c60b1977579
+  m_uniqueId: Environment_6dcb82db-2c48-4cc0-8908-bf83dd57d66b
   m_searchTags: []
 --- !u!114 &1325932584629773953
 MonoBehaviour:
@@ -47905,7 +48272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_95cced43-d4fc-4b0c-8567-9496c78eadf2
+  m_uniqueId: Environment_fe038d09-add6-4a0b-9e53-376c74b9dba7
   m_searchTags: []
 --- !u!1001 &7830097723303638198
 PrefabInstance:
@@ -47989,7 +48356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f70e9d69-1fb7-4971-b0be-f050ba043df1
+  m_uniqueId: Environment_17839dc6-cdf6-49db-be27-3f49598045f9
   m_searchTags: []
 --- !u!114 &3008940729315553581
 MonoBehaviour:
@@ -48003,7 +48370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_eb7e284f-6fb9-40a4-ad85-6c9a9371ceb5
+  m_uniqueId: Environment_60c3bed7-efce-4ca2-8a29-dd9a2ef2acf1
   m_searchTags: []
 --- !u!4 &5272436519834244026 stripped
 Transform:
@@ -48097,7 +48464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b94b23b3-b328-4a82-85a3-b82c7795cdab
+  m_uniqueId: Environment_9fd05a6c-6a31-4911-b9cb-df8037c42db4
   m_searchTags: []
 --- !u!114 &590528721691829750
 MonoBehaviour:
@@ -48111,7 +48478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_94f07ee9-30b9-4d32-a3b1-c2e2182d7b75
+  m_uniqueId: Environment_1022f71c-ce50-4d9b-9576-10f037a33294
   m_searchTags: []
 --- !u!1001 &7830097723353572296
 PrefabInstance:
@@ -48200,7 +48567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_bdd5d21f-b0d3-494a-8173-50a2729bc679
+  m_uniqueId: Environment_4726c96e-0c37-463d-b209-fccbe6a17839
   m_searchTags: []
 --- !u!114 &9767625399837488
 MonoBehaviour:
@@ -48214,7 +48581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_2782c44b-a7b2-4086-8415-94314731cba0
+  m_uniqueId: Environment_3d1f2e86-6083-4d61-a1a6-28969bfcf964
   m_searchTags: []
 --- !u!1001 &7830097723402884227
 PrefabInstance:
@@ -48681,7 +49048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7da23fd5-6e8d-4789-baf5-1a52f250fc6f
+  m_uniqueId: Environment_881cec94-444d-4fde-a562-d49fa567fc10
   m_searchTags: []
 --- !u!114 &8123513989653312455
 MonoBehaviour:
@@ -48695,7 +49062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_575ad928-4bc0-4ed7-ae69-90a9b1b56770
+  m_uniqueId: Environment_51dc98c7-f000-4a2e-b8d2-2592154d1df5
   m_searchTags: []
 --- !u!4 &5272436519951619601 stripped
 Transform:
@@ -48789,7 +49156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f65a4386-ddd1-4df7-8241-15a22970d16f
+  m_uniqueId: Environment_68b19bcb-aeb0-43ad-9239-9a671b454215
   m_searchTags: []
 --- !u!114 &2964402496250603603
 MonoBehaviour:
@@ -48803,7 +49170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1925719e-7ed6-4098-b76e-2becb2a853a0
+  m_uniqueId: Environment_d5401066-d657-4c9d-9dfa-90e6af25857a
   m_searchTags: []
 --- !u!1001 &7830097723496012084
 PrefabInstance:
@@ -48892,7 +49259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_17204c23-c2aa-4ec1-8e53-cc849f7919f4
+  m_uniqueId: Environment_0cb3d845-ec92-40e3-8cce-fdd9f8054e09
   m_searchTags: []
 --- !u!114 &6305292696738318768
 MonoBehaviour:
@@ -48906,7 +49273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a74d6d9f-d07a-48be-99ec-f75b317d26cc
+  m_uniqueId: Environment_ace5ecca-9492-4299-8229-8a2bf16c1e61
   m_searchTags: []
 --- !u!1001 &7830097723497787014
 PrefabInstance:
@@ -48995,7 +49362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_0853c84e-ff07-4b42-afbf-f7292256ea4e
+  m_uniqueId: Environment_48c43948-045a-477d-96c1-02520d2bd7cb
   m_searchTags: []
 --- !u!114 &7450884272119031181
 MonoBehaviour:
@@ -49009,7 +49376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a6721be9-1bc5-4719-8fbc-421ad3e7f186
+  m_uniqueId: Environment_d7267a34-00fa-4b10-8226-229e22885022
   m_searchTags: []
 --- !u!1001 &7830097723502532431
 PrefabInstance:
@@ -50065,7 +50432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9e67966c-0494-48fb-8f87-dd288d0c2936
+  m_uniqueId: Environment_f6059620-26fa-4a19-8181-5b99963b9ab5
   m_searchTags: []
 --- !u!114 &7345471241578368667
 MonoBehaviour:
@@ -50079,7 +50446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_70f3cce0-e914-48c5-b100-c9107f590040
+  m_uniqueId: Environment_d5d7b668-f271-4bac-929f-66161127c588
   m_searchTags: []
 --- !u!1001 &7830097723662249754
 PrefabInstance:
@@ -50163,7 +50530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_165751e9-8e2f-4bb8-a89d-550cbfa7d41e
+  m_uniqueId: Environment_1c8a8f60-e3f6-4e2e-93e8-e0aa4a131f57
   m_searchTags: []
 --- !u!114 &998295876425094182
 MonoBehaviour:
@@ -50177,7 +50544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5ef25a6e-f3ef-41ef-999c-bd171e043cb6
+  m_uniqueId: Environment_e7bdae30-6595-4635-b5ef-21a0996f1cb6
   m_searchTags: []
 --- !u!4 &5272436520159299606 stripped
 Transform:
@@ -50270,7 +50637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1bb2878d-2129-470b-89e0-1bd883fc474c
+  m_uniqueId: Environment_4edd0283-385b-4bdf-bd08-5416324a4aae
   m_searchTags: []
 --- !u!114 &3883975804465801229
 MonoBehaviour:
@@ -50284,7 +50651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_02d77cd7-537a-4f5d-ab85-735c6dc293f0
+  m_uniqueId: Environment_21434c05-52ea-4708-8f9e-3b47224772c4
   m_searchTags: []
 --- !u!4 &5272436520146682572 stripped
 Transform:
@@ -50308,7 +50675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_c329ce9f-852f-4cda-94fa-f0c5e986d858
+  m_uniqueId: Environment_f9b46619-9b0e-40ee-b494-3249dddaae72
   m_searchTags: []
 --- !u!114 &4015584878222235179
 MonoBehaviour:
@@ -50322,7 +50689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_0d0de8c9-fc1d-4cc1-a606-e898f1f7f44c
+  m_uniqueId: Environment_6078f194-a8b0-4c19-af92-72bd5b2fa640
   m_searchTags: []
 --- !u!1001 &7830097723675992280
 PrefabInstance:
@@ -50533,7 +50900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_3e5a2d01-c287-4ed0-ab44-e72fc1d3e1a1
+  m_uniqueId: Environment_2cccdb3d-e2db-4dd8-a2f9-33ac0e33c6bd
   m_searchTags: []
 --- !u!114 &5873577741161978441
 MonoBehaviour:
@@ -50547,7 +50914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1a3502dc-a24d-4869-a27a-e84337db8d65
+  m_uniqueId: Environment_730f10cd-a6d6-4619-bcd6-7028d35c616f
   m_searchTags: []
 --- !u!4 &5272436520253423773 stripped
 Transform:
@@ -50571,7 +50938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_371545c2-4cee-4fc7-b29b-9972e9834c72
+  m_uniqueId: Environment_b69a863a-2749-4914-9d24-6f23ba9b70b2
   m_searchTags: []
 --- !u!114 &3787460497691092633
 MonoBehaviour:
@@ -50585,7 +50952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_90e83900-82a3-4774-9118-10a9536b5270
+  m_uniqueId: Environment_d515ba9c-15ab-4d39-b00e-62d9570539be
   m_searchTags: []
 --- !u!1001 &7830097723693331435
 PrefabInstance:
@@ -51477,7 +51844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_18b16d3e-276d-486d-988a-07fd90656623
+  m_uniqueId: Environment_4e295e87-d7c0-458a-a43a-b8b28ba9758a
   m_searchTags: []
 --- !u!114 &679871361568849028
 MonoBehaviour:
@@ -51491,7 +51858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8df412d9-ab18-4f87-b5ab-6e8309078180
+  m_uniqueId: Environment_02ee2c6e-c42e-4930-8f37-a75ea039d1d1
   m_searchTags: []
 --- !u!1001 &7830097723780868775
 PrefabInstance:
@@ -51580,7 +51947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5905bc3e-c777-4958-a1f3-aaeae72527f8
+  m_uniqueId: Environment_4cc06733-e52e-44fc-8cf3-d81c1e2898b1
   m_searchTags: []
 --- !u!114 &9064893028463609524
 MonoBehaviour:
@@ -51594,7 +51961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_5aef27d4-de38-443f-9a08-584cb0c5d9b7
+  m_uniqueId: Environment_39b74ee7-1a6b-4471-b9c0-6b2c94b710fa
   m_searchTags: []
 --- !u!1001 &7830097723796837459
 PrefabInstance:
@@ -51786,7 +52153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_6563ffc2-a56b-44bb-9ecd-1ac383faf68c
+  m_uniqueId: Environment_22dcc744-02e8-48c5-8dbe-4136bd565e35
   m_searchTags: []
 --- !u!114 &72752807899365756
 MonoBehaviour:
@@ -51800,7 +52167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_136d6957-885e-415d-b8ba-3a9405bd4541
+  m_uniqueId: Environment_0115c2d8-1e65-4b39-ba5b-fa94e2e3ddd1
   m_searchTags: []
 --- !u!1001 &7830097723847398680
 PrefabInstance:
@@ -52193,7 +52560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_3ad72b00-9d97-498f-be4e-f63475c1879b
+  m_uniqueId: Environment_fb2a8df8-04ee-4d43-84a7-f8a525a20221
   m_searchTags: []
 --- !u!114 &5462888561814167685
 MonoBehaviour:
@@ -52207,7 +52574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_71cf88e0-fb7b-4b88-a7cf-982ad3e131c4
+  m_uniqueId: Environment_21b5dda5-03fe-4e73-8648-60a73d6a37e9
   m_searchTags: []
 --- !u!4 &5272436520346470569 stripped
 Transform:
@@ -52301,7 +52668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_76c574cd-ad6d-438a-b265-689dbae98b62
+  m_uniqueId: Environment_cac97946-b3fa-4434-b788-fe013b074987
   m_searchTags: []
 --- !u!1001 &7830097723881936243
 PrefabInstance:
@@ -52493,7 +52860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9d4dab33-e76a-4d6d-826c-5d331d88136c
+  m_uniqueId: Environment_036e5d7a-da5e-44c4-9ab8-f5503b503008
   m_searchTags: []
 --- !u!114 &4773195015283802263
 MonoBehaviour:
@@ -52507,7 +52874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_dd252078-d9e9-4e1d-aa65-e4d609d3ecb9
+  m_uniqueId: Environment_dfd8cdff-d068-4cf2-8284-f840dd18e25b
   m_searchTags: []
 --- !u!1001 &7830097723920535600
 PrefabInstance:
@@ -52596,7 +52963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_3db2994b-0828-4540-9360-e83b4a9868a6
+  m_uniqueId: Environment_8398d782-fec0-4a1f-b312-f1976d0f8273
   m_searchTags: []
 --- !u!114 &7696237039598546925
 MonoBehaviour:
@@ -52610,7 +52977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_dd109972-a8c7-48e1-a3f1-01dcf561ab00
+  m_uniqueId: Environment_0cb82790-6ff6-4a58-b75b-918597adfa49
   m_searchTags: []
 --- !u!1001 &7830097723999625169
 PrefabInstance:
@@ -52797,7 +53164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_da297234-f301-484c-a02a-d4cda1e36757
+  m_uniqueId: Environment_2e359697-ddff-4f3b-a8ff-ed89f10356f4
   m_searchTags: []
 --- !u!114 &5346448825497871525
 MonoBehaviour:
@@ -52811,7 +53178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a6410e19-c157-4c17-9dc1-698f324f923f
+  m_uniqueId: Environment_0900c116-cf23-4099-9853-07ae70f575bf
   m_searchTags: []
 --- !u!4 &5272436520483334307 stripped
 Transform:
@@ -53008,7 +53375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_7b2dc61e-87b4-4168-83ec-197b9500542f
+  m_uniqueId: Environment_1abc76bf-5673-4e32-9f08-3ca3c8591c55
   m_searchTags: []
 --- !u!114 &3944281490457311739
 MonoBehaviour:
@@ -53022,7 +53389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_fdc2815b-5f50-4037-b14c-f1a8d1b18926
+  m_uniqueId: Environment_b94bae7c-9d6a-4cad-b9ac-f55d4f83f94c
   m_searchTags: []
 --- !u!1001 &7830097724033459654
 PrefabInstance:
@@ -53312,7 +53679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_17fab122-9c55-4984-97e9-9abe0b1aca04
+  m_uniqueId: Environment_bc71ef99-5277-4f19-a199-5c97ad6b7d69
   m_searchTags: []
 --- !u!114 &7998229682245746710
 MonoBehaviour:
@@ -53326,7 +53693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_14c46f7d-9140-45e9-9ede-27ee5155763d
+  m_uniqueId: Environment_08e6330d-b356-4ae3-90be-f9d32725e362
   m_searchTags: []
 --- !u!4 &5272436520586674850 stripped
 Transform:
@@ -53523,7 +53890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8e2df985-85fa-49cd-aaab-27a6f3b41344
+  m_uniqueId: Environment_1459c12a-1d3a-4805-9850-4de18be8b33a
   m_searchTags: []
 --- !u!114 &5186865143951379175
 MonoBehaviour:
@@ -53537,7 +53904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d2acdb11-a985-4bb6-b050-74bfa0a7b4db
+  m_uniqueId: Environment_3ddabf8f-58ea-41f4-8958-6944215948cd
   m_searchTags: []
 --- !u!1001 &7830097724083556613
 PrefabInstance:
@@ -53729,7 +54096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8728369c-52ca-4f4f-8209-77221902a5d9
+  m_uniqueId: Environment_036ac83c-d107-4fea-b40d-62d1b985fdd0
   m_searchTags: []
 --- !u!114 &4268246825994381061
 MonoBehaviour:
@@ -53743,7 +54110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_e50c1bc4-f884-439a-809e-2b98d0f978a8
+  m_uniqueId: Environment_4de9cd69-da92-43c4-9b01-69ba5148f237
   m_searchTags: []
 --- !u!1001 &7830097724108412742
 PrefabInstance:
@@ -54038,7 +54405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8855cbcf-c43c-44eb-bf8b-b56e93ed6973
+  m_uniqueId: Environment_334e25e9-7218-4e8f-b66e-18f7b9fee135
   m_searchTags: []
 --- !u!114 &2100110290039500697
 MonoBehaviour:
@@ -54052,7 +54419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f371fd94-bfcb-4006-b4e3-6f8dc205918a
+  m_uniqueId: Environment_42640cbd-eab5-41cb-981b-7d226a74afce
   m_searchTags: []
 --- !u!1001 &7830097724167637105
 PrefabInstance:
@@ -54141,7 +54508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f916f4cb-eaeb-4268-b283-b33fa6c1fc64
+  m_uniqueId: Environment_4ec5cae6-1177-4dfd-8e9d-5582dd440e2b
   m_searchTags: []
 --- !u!114 &1340686756843774650
 MonoBehaviour:
@@ -54155,7 +54522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_ec240cf3-aebb-4f93-877e-d1dbb287c0a3
+  m_uniqueId: Environment_6bc1b8af-b4b0-4fda-92b5-4b2211603c98
   m_searchTags: []
 --- !u!1001 &7830097724174892102
 PrefabInstance:
@@ -54449,7 +54816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_62ba1c41-3050-4c97-ab9c-ea0d6ddd684b
+  m_uniqueId: Environment_3da19072-40a3-4c31-872c-0a1472fd5652
   m_searchTags: []
 --- !u!114 &1455624878923189201
 MonoBehaviour:
@@ -54463,7 +54830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_9226fa18-ebe7-48df-b928-2a44d53e944e
+  m_uniqueId: Environment_72280c16-f257-4c5f-b554-128218ef5197
   m_searchTags: []
 --- !u!4 &5272436520703225093 stripped
 Transform:
@@ -54803,7 +55170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_44e75018-662d-40e3-a6be-0a8b04243811
+  m_uniqueId: Environment_2eb6056d-0470-4d81-b9e8-9109ef62f2f6
   m_searchTags: []
 --- !u!4 &5253740856791878026 stripped
 Transform:
@@ -54827,7 +55194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_1e0c25fe-c446-4c4c-80fa-3a223a396c9b
+  m_uniqueId: Environment_4b1c3716-1875-42c6-9ffd-d590d25e11a0
   m_searchTags: []
 --- !u!1 &8691085646759744454 stripped
 GameObject:
@@ -54846,7 +55213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_b23c74e5-9d91-49d1-ac9e-d65431e6776e
+  m_uniqueId: Environment_8ca636df-bbd1-401e-be66-c2ef469783b5
   m_searchTags: []
 --- !u!1001 &7897144388612620967
 PrefabInstance:
@@ -55211,7 +55578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d9b6568d-723c-4bbe-91c8-181d73784d1b
+  m_uniqueId: Environment_b2f336fd-c360-4736-90d2-9a9b79ded9bf
   m_searchTags: []
 --- !u!1001 &7922324593718627327
 PrefabInstance:
@@ -55374,7 +55741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d5ea6cb9-a121-42ae-bed0-3ecbbab43238
+  m_uniqueId: Environment_b61cddc5-1354-499f-b833-a45da1fc69a5
   m_searchTags: []
 --- !u!1001 &7939392059680961432
 PrefabInstance:
@@ -55470,7 +55837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_638f7aba-1585-438d-b45e-5c47783ca645
+  m_uniqueId: Environment_121fec59-77d3-4132-a937-ab3ecc054438
   m_searchTags: []
 --- !u!4 &5453593561830839444 stripped
 Transform:
@@ -55494,7 +55861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_af38bd6a-6a70-4a5b-9474-211808dcf728
+  m_uniqueId: Environment_1feec883-2bf6-4436-ace0-e16887b55622
   m_searchTags: []
 --- !u!1001 &7970922951873186403
 PrefabInstance:
@@ -55648,7 +56015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d65c5ae2-1fd3-4b08-8ff7-7dd307013cf0
+  m_uniqueId: Environment_d5c0ee51-d14b-462b-a1dc-bf37c9580d7d
   m_searchTags: []
 --- !u!4 &5431851488224463476 stripped
 Transform:
@@ -55812,7 +56179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_a448589f-f07c-4b61-afa8-fe31ab92250c
+  m_uniqueId: Environment_4e93485e-7508-482a-85ae-6a4923397625
   m_searchTags: []
 --- !u!1001 &8028649689432639181
 PrefabInstance:
@@ -55896,7 +56263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_4a3c91c1-0726-4854-8bf1-da1873e3ab57
+  m_uniqueId: Environment_e675701c-00ec-4eb0-b02a-b894dafe8f05
   m_searchTags: []
 --- !u!4 &5398148177137312193 stripped
 Transform:
@@ -55985,7 +56352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8ac47f35-8b48-4aae-957d-315796e6d7db
+  m_uniqueId: Environment_4a43a9c2-3ccf-4b73-a83c-02ece539fab1
   m_searchTags: []
 --- !u!4 &5400273201985289127 stripped
 Transform:
@@ -56811,20 +57178,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9149184446966505899, guid: 3867cd0fa027de24880c49d8fefae76c, type: 3}
   m_PrefabInstance: {fileID: 8197891036172615172}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7830097722279089161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097942286447861679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_8e070202-25c8-42c2-bf5e-939cc0f1dcda
-  m_searchTags: []
 --- !u!114 &3173360437626922520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56838,6 +57191,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_uniqueId: Couloir_Level_Art_327de549-b83d-4527-9c5b-caece36ac31c
+  m_searchTags: []
+--- !u!114 &7830097722279089161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097942286447861679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uniqueId: Couloir_Level_Art_8e070202-25c8-42c2-bf5e-939cc0f1dcda
   m_searchTags: []
 --- !u!4 &1156429113500318922 stripped
 Transform:
@@ -57557,7 +57924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_359b5923-0cfd-4ddb-b379-a0f3b4c17183
+  m_uniqueId: Environment_9171b518-8428-46b4-9c7c-b90deb1badc7
   m_searchTags: []
 --- !u!1001 &8374006034182800940
 PrefabInstance:
@@ -57646,7 +58013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_41485903-a639-40b2-9cbf-0309ae4205f4
+  m_uniqueId: Environment_58c07dee-8ace-47b5-8f38-2aea54d4c766
   m_searchTags: []
 --- !u!1001 &8380918787697760547
 PrefabInstance:
@@ -59262,7 +59629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_037f7459-5f9d-4cf8-a86b-ae6abe5db60b
+  m_uniqueId: Environment_105f8748-2699-4ff9-a64a-d9a84d684d1e
   m_searchTags: []
 --- !u!1001 &8792312859060594762
 PrefabInstance:
@@ -59351,7 +59718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_67b8a906-ef1b-4830-9e5c-6442f082e1ac
+  m_uniqueId: Environment_52c7c337-0bc0-4c7c-a6c0-37dabce75314
   m_searchTags: []
 --- !u!1001 &8793429132787512846
 PrefabInstance:
@@ -60638,7 +61005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_fad4fd05-0094-4dd6-a9e3-9cdcb682dfac
+  m_uniqueId: Environment_4e5d2c9b-430b-4424-b507-6facad2738c0
   m_searchTags: []
 --- !u!1001 &9114367913899897790
 PrefabInstance:
@@ -60797,7 +61164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_d5ffa4cc-928a-465f-bf3f-07e834c1280e
+  m_uniqueId: Environment_aaab436a-b971-42bc-b31c-900fb08509f5
   m_searchTags: []
 --- !u!1001 &9121892901171369800
 PrefabInstance:
@@ -61037,7 +61404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_f4e66f90-fa7b-45c0-9da7-921267708455
+  m_uniqueId: Environment_cb478022-c22b-4865-b41e-2a927c77c037
   m_searchTags: []
 --- !u!4 &8055931534781019975 stripped
 Transform:
@@ -61205,7 +61572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bbbbb813584b24d8bf4b2c715c9f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_uniqueId: Couloir_Level_Art_67408437-e7db-4412-b288-ddc4092106b1
+  m_uniqueId: Environment_fe7020d9-db17-4e19-ad7e-b5b557fc4b5c
   m_searchTags: []
 --- !u!1001 &9187934950525748320
 PrefabInstance:
