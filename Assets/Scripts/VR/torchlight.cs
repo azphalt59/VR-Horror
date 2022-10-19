@@ -66,12 +66,10 @@ public class torchlight : MonoBehaviour
             }
         }
     }
-    
     public void Perform()
     {
     
     }
-
     private void OnDisable()
     {
         lightActionLeft.action.performed -= PerformLight;
@@ -83,7 +81,6 @@ public class torchlight : MonoBehaviour
         GetLight = LightGameObject.GetComponent<Light>();
         GetLight.enabled = false;
         MaxIntensity = GetLight.intensity;
-
     }
     private void Update()
     {
@@ -91,10 +88,6 @@ public class torchlight : MonoBehaviour
         {
             LowerAndUperIntensity();
         }
-    }
-    public void FlashingLight()
-    {
-
     }
     public void LowerAndUperIntensity()
     {
@@ -124,7 +117,6 @@ public class torchlight : MonoBehaviour
         {
             GetLight.enabled = false;
         }
-        
     }
     public void LowerIntensity()
     {
@@ -144,6 +136,5 @@ public class torchlight : MonoBehaviour
         {
             GetLight.intensity += Time.deltaTime * SpeedIntensity *MaxIntensity;
         }
-       
     }
 }
