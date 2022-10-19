@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 584760205436502797}
   m_Layer: 0
   m_Name: Camera Offset
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 584760207334436670}
   m_Layer: 0
   m_Name: LeftHand Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 1714512784093270182}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 5092027089534191330}
   m_Layer: 0
   m_Name: TriggerHand
-  m_TagString: Hand
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -942,6 +942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightHand Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 355849948220085035, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 355849948220085036, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
       propertyPath: m_LineLength
       value: 3
@@ -958,9 +962,25 @@ PrefabInstance:
       propertyPath: m_AnimateModel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1642383622226523401, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642383622226523403, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1642383622226523407, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642383622226523407, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695700180354426517, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd559945bbe0fb14694959d15a4cd2f5, type: 3}
@@ -978,11 +998,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 109434732395284505, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_TagString
-      value: Hand
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 109434732395284507, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_TagString
-      value: Hand
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_Name
@@ -994,7 +1014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_TagString
-      value: Hand
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_RootOrder
@@ -1106,6 +1126,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5669384352370538608, guid: 675bbadd461e6ce42b49aa6fc026c116, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bbadd461e6ce42b49aa6fc026c116, type: 3}
 --- !u!4 &8830292846026663565 stripped
@@ -1171,6 +1195,10 @@ PrefabInstance:
     - target: {fileID: 8946872155517100067, guid: 2b89873ce418ecd4e8914fe89a97e260, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946872155517100067, guid: 2b89873ce418ecd4e8914fe89a97e260, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b89873ce418ecd4e8914fe89a97e260, type: 3}

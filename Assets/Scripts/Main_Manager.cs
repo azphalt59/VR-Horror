@@ -9,6 +9,7 @@ public class Main_Manager : MonoBehaviour
     public List<GameObject> QuestItems;
     public List<GameObject> QuestStepPrefab;
     public int StepIndex = 1;
+    public GameObject Doors;
     // Start is called before the first frame update
     public static Main_Manager Instance;
     [SerializeField] private bool DoorsAreLocked = true;
@@ -26,47 +27,54 @@ public class Main_Manager : MonoBehaviour
     }
     public void QuestUpdate(int ItemIndex)
     {
-        if (StepIndex + 1 == QuestStepPrefab.Count)
+        if(ItemIndex > StepIndex)
         {
-            Debug.Log("C'est gagné");
-            return;
-        }
-        Debug.Log("On passe à l'étape " + (StepIndex + 1));
-        DesactivePreviousSteQuest(ItemIndex);
-        if (ItemIndex < QuestStepPrefab.Count)
-        {
-            LoadNextStepQuest(ItemIndex + 1);
+            StepIndex = ItemIndex;
+            if (ItemIndex + 1 == QuestStepPrefab.Count)
+            {
+                Debug.Log("C'est gagnï¿½");
+                return;
+            }
+            if (ItemIndex < QuestStepPrefab.Count)
+            {
+                LoadNextStepQuest(ItemIndex);
+            }
         }
 
     }
 
-    public void ActiveDoor()
+    public void ActiveDoor(int angle)
     {
         if(DoorsAreLocked == true)
         {
+            Doors.SetActive(true);
             foreach (XRGrabInteractable grab in grabs)
             {
-                grab.enabled = true;
-                grab.gameObject.GetComponent<HandleDoor>().UnlockDoor(20);
+                grab.gameObject.GetComponent<HandleDoor>().UnlockDoor(angle);
             }
             DoorsAreLocked = false;
         }
         
     }
-    private void LoadNextStepQuest(int ItemIndex)
+    public void LoadNextStepQuest(int ItemIndex)
     {
         QuestItems[ItemIndex].SetActive(true);
+        Debug.Log(QuestItems[ItemIndex].name + " Loading");
         QuestStepPrefab[ItemIndex].SetActive(true);
     }
-    private void DesactivePreviousSteQuest(int ItemIndex)
+    public void DesactivePreviousSteQuest(int ItemIndex)
     {
+        Debug.Log(QuestStepPrefab[ItemIndex].name + " Desactive");
         QuestStepPrefab[ItemIndex].SetActive(false);
-        DesactivePreviousItem(ItemIndex);
     }
     private void DesactivePreviousItem(int ItemIndex)
     {
         QuestItems[ItemIndex].SetActive(false);
         // Mettre l'anim de disappear
+    }
+    public void Win()
+    {
+        Debug.Log("Win");
     }
 }
 
