@@ -31,7 +31,7 @@ public class TriggerCloseDoor : MonoBehaviour
             {
                 canClose = true;
                 FrontTrigger.SetActive(false);
-                FrontTrigger.SetActive(false);
+                BehindTrigger.SetActive(false);
             }
         }
     }
