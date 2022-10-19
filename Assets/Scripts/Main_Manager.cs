@@ -56,7 +56,7 @@ public class Main_Manager : MonoBehaviour
         }
         
     }
-    private void LoadNextStepQuest(int ItemIndex)
+    public void LoadNextStepQuest(int ItemIndex)
     {
         QuestItems[ItemIndex].SetActive(true);
         Debug.Log(QuestItems[ItemIndex].name + " Loading");
@@ -71,6 +71,10 @@ public class Main_Manager : MonoBehaviour
     {
         QuestItems[ItemIndex].SetActive(false);
         // Mettre l'anim de disappear
+    }
+    public void Win()
+    {
+        Debug.Log("Win");
     }
 }
 

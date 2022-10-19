@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class SpectralKey : MonoBehaviour
 {
+    public GameObject SpectralDrawer;
     private void OnTriggerEnter(Collider other) {
         if(other.tag == "Drawer")
         {
             Main_Manager.Instance.QuestUpdate(5);
-            Destroy(other.gameObject);
+            Main_Manager.Instance.DesactivePreviousSteQuest(3);
+            Destroy(SpectralDrawer);
             Destroy(this.gameObject);
         }
 
