@@ -72,10 +72,14 @@
      <Compile Include="Assets\Scripts\VR\Door.cs" />
      <Compile Include="Assets\Scripts\Playeroffset.cs" />
      <Compile Include="Assets\Scripts\SpectralKey.cs" />
-     <None Include="Assets\Resources\Nolight\mapconfig.txt" />
-     <None Include="Assets\Resources\Couloir_1Scene02\mapconfig.txt" />
-     <None Include="Assets\Resources\AreaLight\mapconfig.txt" />
-     <None Include="Assets\Resources\Couloir_1Ambiant\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Clean_03\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Clean_01_V1\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Clean_01_V2\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Clean_05_V1\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Clean_04_V1\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Horror01_V1\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Clean_02_V1\mapconfig.txt" />
+     <None Include="Assets\Resources\Corridor_Horror_02\mapconfig.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
